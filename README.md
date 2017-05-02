@@ -13,8 +13,10 @@ IDE：Vscode    Python版本: 3.6
 详细学习路径：
 ### 一：Beautiful Soup 爬虫
 
+* requests库的安装与使用
 * 安装beautiful soup 爬虫环境
 * beautiful soup 的解析器
+* re库 正则表达式的使用
 * bs4 爬虫实践： 获取百度贴吧的内容
 * bs4 爬虫实践： 获取双色球中奖信息
 * bs4 爬虫实践： 获取起点小说信息
