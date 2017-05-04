@@ -1,6 +1,3 @@
-import bs4
-
-html='''
 <li class=" j_thread_list clearfix" data-field='{&quot;id&quot;:4830198616,&quot;author_name&quot;:&quot;Li\u6b23\u8fdc&quot;,&quot;first_post_id&quot;:99354312570,&quot;reply_num&quot;:24,&quot;is_bakan&quot;:null,&quot;vid&quot;:&quot;&quot;,&quot;is_good&quot;:null,&quot;is_top&quot;:null,&quot;is_protal&quot;:null,&quot;is_membertop&quot;:null,&quot;frs_tpoint&quot;:null}'>
     <div class="t_con cleafix">
 
@@ -71,15 +68,3 @@ html='''
         </div>
     </div>
 </li>
-'''
-comment={}
-soup = bs4.BeautifulSoup(html,'lxml')
-comment['title'] = soup.find('a',attrs={'class':'j_th_tit '}).text.strip()
-comment['link'] ="http://tieba.baidu.com/" +  soup.find('a',attrs={'class':'j_th_tit '})['href']
-comment['name'] = soup.find('span',attrs={'class':'tb_icon_author '}).text.strip()
-comment['time'] = soup.find('span',attrs={'class':'pull-right is_show_create_time'}).text.strip()
-comment['replyNum'] = soup.find('span',attrs={'class':'threadlist_rep_num center_text'}).text.strip()
-
-
-
-print(comment)
