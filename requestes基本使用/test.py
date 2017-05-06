@@ -1,52 +1,56 @@
+import requests
 import bs4
+import re
 
-html = '''
-  <div class="matchmain bisai_qukuai"><!--比赛列表块 -->
+def get_html(url):
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status
+        print(r.apparent_encoding)
+        r.encoding = r.apparent_encoding
+        return r.text
+    except:
+        return "Someting Wrong！"
 
-           <div class="matchheader">
 
-        <div class="whenm">
-        比赛结束，&nbsp;&nbsp;比分：X：X，A队获胜。
-        </div>
-        <div class="whenm hui1" >
-            CIS Carnage        </div>
-    </div>
+def get_txt_url(url):
+    '''
+    获取该小说每个章节的url地址：
 
-     <div class="match border1" style="background-image: url(../images/index/liansai/5600659cd4d08908f62fb8a9c0d30c8a.jpg)">
-  <div class="matchleft">
-    <a href="../match?m=1979">
-    <div style="width: 36%; float: left; text-align: right">
-      <div class="team" style="float: right; background: url('../images/index/ceshi/PR.jpg')"></div>
-      <div class="teamtext"><span class="team_name">PR战队</span></div>
-      <div class="clearfix"></div>
-      <div class="zhichilv1"><span class="team_number_green">39%</span><br><span class="team_number_green">39%</span></div>
-    </div>
-    <div style="width: 28%; float: left; text-align: center; margin-top: 0.6em"><img src="../images/index/vs.png" width="31" height="30"><br>
-    <div class="zhichi1">物品支持<br>积分支持</div>
-    </div>
-    <div style="width: 36%; float: left; text-align: left">
-      <div class="team" style="float: left; background: url('../images/index/ceshi/Empire.jpg')"></div>
-      <div class="teamtext"><span class="team_name">Empire</span></div>
-       <div class="clearfix"></div>
-      <div class="zhichilv2"><span class="team_number_red" style="color: #00ad00">61%</span><br><span class="team_number_red"  style="color: #00ad00">61%</span></div>
-    </div>
-    </a>
-  </div>
-</div>
-'''
+    '''
+    url_list = []
+    html = get_html(url)
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    lista = soup.find_all('dd')
+    txt_name = soup.find('h1').text
+    with open('/Users/ehco/Documents/codestuff/Python-crawler/小说/{}.txt'.format(txt_name),"a+") as f:
+      f.write('小说标题：{} \n'.format(txt_name))
+    for url in lista:
+        url_list.append('http://www.qu.la/' + url.a['href'])
 
-soup = bs4.BeautifulSoup(html, 'lxml')
-match_list = soup.find_all('div', attrs={'class': 'matchmain bisai_qukuai'})
-for match in match_list:
-    time = match.find('div', attrs={'class': 'whenm'}).text.strip()
-    teamname = soup.find_all('span', attrs={'class': 'team_name'})
-    team1_name = teamname[0].string
-    # 这里我们采用了css选择器：比原来的属性选择更加方便
-    team1_support_level = soup.find('span', class_='team_number_green').string
+    
+    return url_list,txt_name
 
-    team2_name = teamname[1].string
-    team2_support_level = soup.find('span', class_='team_number_red').string
 
-str1 = 'pip3'
 
-print(str1[0:2])
+url = 'http://www.qu.la/book/28888/'
+
+def get_one_txt(url,txt_name):
+  html = get_html(url).replace('<br/>','\n')  
+  soup = bs4.BeautifulSoup(html,'lxml')
+  try:
+    txt  = soup.find('div',id='content').text.replace('chaptererror();','')
+    title = soup.find('title').text
+  
+    with open('/Users/ehco/Documents/codestuff/Python-crawler/小说/{}.txt'.format(txt_name),"a") as f:
+      f.write(title+'\n\n')
+      f.write(txt)
+      print('当前章节{} 已经下载完毕'.format(title))
+  except:
+    print('someting wrong')
+
+
+
+a=[1,2,3,4,5]
+for i in a:
+  print(a.index(i)/len(a)*100)
