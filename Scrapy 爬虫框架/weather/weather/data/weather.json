@@ -1,0 +1,144 @@
+{
+    "date": "苏州今日天气",
+    "week": "星期六",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b0.png",
+    "temperature": "31℃~19℃",
+    "weather": "晴",
+    "wind": "西南风 2级"
+}
+{
+    "date": "苏州明日天气",
+    "week": "星期日",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b1.png",
+    "temperature": "30℃~20℃",
+    "weather": "多云",
+    "wind": "东风 1-2级"
+}
+{
+    "date": "苏州后天天气",
+    "week": "星期一",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b2.png",
+    "temperature": "26℃~18℃",
+    "weather": "阴",
+    "wind": "东风 1-2级"
+}
+{
+    "date": "苏州16日天气",
+    "week": "星期二",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b2.png",
+    "temperature": "27℃~17℃",
+    "weather": "阴",
+    "wind": "东风 1-2级"
+}
+{
+    "date": "苏州17日天气",
+    "week": "星期三",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b1.png",
+    "temperature": "29℃~18℃",
+    "weather": "多云",
+    "wind": "东南风 3-4级"
+}
+{
+    "date": "苏州18日天气",
+    "week": "星期四",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b2.png",
+    "temperature": "29℃~18℃",
+    "weather": "阴",
+    "wind": "南风 1-2级"
+}
+{
+    "date": "南京今日天气",
+    "week": "星期六",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b0.png",
+    "temperature": "31℃~17℃",
+    "weather": "晴",
+    "wind": "南风 3级"
+}
+{
+    "date": "南京明日天气",
+    "week": "星期日",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b1.png",
+    "temperature": "29℃~18℃",
+    "weather": "多云",
+    "wind": "东风 3-4级"
+}
+{
+    "date": "南京后天天气",
+    "week": "星期一",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b4.png",
+    "temperature": "24℃~15℃",
+    "weather": "雷阵雨",
+    "wind": "东风 3-4级"
+}
+{
+    "date": "南京16日天气",
+    "week": "星期二",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b0.png",
+    "temperature": "25℃~15℃",
+    "weather": "晴",
+    "wind": "东风 1-2级"
+}
+{
+    "date": "南京17日天气",
+    "week": "星期三",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b0.png",
+    "temperature": "28℃~17℃",
+    "weather": "晴",
+    "wind": "东南风 3-4级"
+}
+{
+    "date": "南京18日天气",
+    "week": "星期四",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b2.png",
+    "temperature": "30℃~19℃",
+    "weather": "阴",
+    "wind": "东风 3-4级"
+}
+{
+    "date": "上海今日天气",
+    "week": "星期六",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b0.png",
+    "temperature": "31℃~19℃",
+    "weather": "晴",
+    "wind": "西南风 1级"
+}
+{
+    "date": "上海明日天气",
+    "week": "星期日",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b1.png",
+    "temperature": "29℃~19℃",
+    "weather": "多云",
+    "wind": "东北风 1-2级"
+}
+{
+    "date": "上海后天天气",
+    "week": "星期一",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b2.png",
+    "temperature": "26℃~18℃",
+    "weather": "阴",
+    "wind": "东南风 1-2级"
+}
+{
+    "date": "上海16日天气",
+    "week": "星期二",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b2.png",
+    "temperature": "25℃~17℃",
+    "weather": "阴",
+    "wind": "东风 1-2级"
+}
+{
+    "date": "上海17日天气",
+    "week": "星期三",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b0.png",
+    "temperature": "28℃~18℃",
+    "weather": "晴",
+    "wind": "东南风 1-2级"
+}
+{
+    "date": "上海18日天气",
+    "week": "星期四",
+    "img": "http://img.tianqi.com/static/images/tianqibig/b1.png",
+    "temperature": "28℃~20℃",
+    "weather": "多云",
+    "wind": "东南风 1-2级"
+}
