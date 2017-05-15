@@ -16,7 +16,5 @@ class MzituPipeline(object):
             os.makedirs(base_dir+item['name'])
         
         # 生成图片下载列表：
-        url_list = item['img_urls']
-        for i in range(len(url_list)):
-            open(base_dir+item['name']+'/'+str(i),'wb').write(requests.get(url_list[i]).content)        
+        open(base_dir+item['name']+'/'+item['img_urls'][-6:],'wb').write(requests.get(item['img_urls']).content)        
         return item
