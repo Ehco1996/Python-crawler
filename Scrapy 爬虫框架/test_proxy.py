@@ -63,4 +63,4 @@ def test(filename='blank.txt'):
 
 
 #调用函数！
-test('1.txt')
+test('kdl_proxy.txt')

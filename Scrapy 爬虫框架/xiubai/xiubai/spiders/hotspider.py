@@ -7,8 +7,8 @@ class HotspiderSpider(scrapy.Spider):
     allowed_domains = ["qiushibaike.com"]
     start_urls = []
     # 我们爬取35页的全部热门段子
-    for i in range(1,36):
-        start_urls.append('http://qiushibaike.com/8hr/page/'+str(i)+'/')
+    for i in range(1,3):
+        start_urls.append('http://www.qiushibaike.com/8hr/page/'+str(i)+'/')
     
     
     def parse(self, response):

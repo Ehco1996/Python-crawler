@@ -52,9 +52,12 @@ DOWNLOAD_DELAY = 1
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'xiubai.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    'xiubai.middlewares.coustomProxy.RandomProxy':10,
+    'xiubai.middlewares.coustomUserAgent.RandomUserAgent': 20,
+    'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware':None,
+    'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware':100,
+}
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
