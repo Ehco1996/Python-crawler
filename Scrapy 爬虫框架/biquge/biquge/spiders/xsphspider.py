@@ -21,7 +21,11 @@ class XsphspiderSpider(scrapy.Spider):
                 url = 'http://www.qu.la' + \
                     link.xpath('.//a/@href').extract()[0]
                 self.novel_list.append(url)
-
+        
+        # 简单的去重
+        self.novel_list = list(set(self.novel_list))
+        
+        
         #for novel in self.novel_list:
             '''
             循环获取每一本小说的
@@ -35,9 +39,12 @@ class XsphspiderSpider(scrapy.Spider):
         '''
         page_urls = response.xpath('.//dd/a/@href').extract()
 
+        priority = len(page_urls)
+
         for url in page_urls:
-            
-            yield scrapy.Request('http://www.qu.la'+url, callback=self.get_text)
+            priority -=1
+            #print(priority)
+            yield scrapy.Request('http://www.qu.la'+url,priority=priority, callback=self.get_text)
 
     def get_text(self, response):
 
