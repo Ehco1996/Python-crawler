@@ -15,7 +15,7 @@ class BiqugePipeline(object):
 
         # 首先从items里取出数据
         name = item['bookname']
-        order_id = int(item['order_id'])
+        order_id = item['order_id']
         body = item['body']
         title = item['title']
 
@@ -32,8 +32,8 @@ class BiqugePipeline(object):
         try:
             with connection.cursor() as cursor:
                 # 数据库表的sql
-
                 sql1 = 'Create Table If Not Exists %s(id int,zjm varchar(20),body text)' % name
+                # 单章小说的写入
                 sql = 'Insert into %s values (%d ,\'%s\',\'%s\')' % (
                     name, order_id, title, body)
                 cursor.execute(sql1)

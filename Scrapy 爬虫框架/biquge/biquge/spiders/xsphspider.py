@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from biquge.items import BiqugeItem
-from .sjzh import Ch2Num
+from .sjzh import Cn2An,get_tit_num
 
 
 class XsphspiderSpider(scrapy.Spider):
@@ -43,14 +43,23 @@ class XsphspiderSpider(scrapy.Spider):
 
         item = BiqugeItem()
 
+        # 小说名
         item['bookname'] = response.xpath(
             './/div[@class="con_top"]/a[2]/text()').extract()[0]
-        item['title'] = response.xpath('.//h1/text()').extract()[0]
-        item['order_id'] = Ch2Num(response.xpath('.//h1/text()').extract()[0])
+        
+        # 章节名 ,将title单独找出来，为了提取章节中的数字
+        title = response.xpath('.//h1/text()').extract()[0]
+        item['title'] = title
+        
+        #  找到用于排序的id值
+        item['order_id'] = Cn2An(get_tit_num(title))
+        
         # 正文部分需要特殊处理
         body = response.xpath('.//div[@id="content"]/text()').extract()
+        
         # 将抓到的body转换成字符串，接着去掉\t之类的排版符号，
         text = ''.join(body).strip().replace('\u3000', '')
+        
         item['body'] = text
 
         return item
