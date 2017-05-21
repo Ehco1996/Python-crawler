@@ -26,9 +26,8 @@ class XsphspiderSpider(scrapy.Spider):
         # 简单的去重
         self.novel_list = list(set(self.novel_list))
 
-        # for novel in self.novel_list:
-           
-        yield scrapy.Request(self.novel_list[0], callback=self.get_page_url)
+        for novel in self.novel_list:
+           yield scrapy.Request(novel, callback=self.get_page_url)
 
     def get_page_url(self, response):
         '''
@@ -40,7 +39,10 @@ class XsphspiderSpider(scrapy.Spider):
            yield scrapy.Request('http://www.qu.la' + url,callback=self.get_text)
 
     def get_text(self, response):
-
+        '''
+        找到每一章小说的标题和正文
+        并自动生成id字段，用于表的排序
+        '''
         item = BiqugeItem()
 
         # 小说名

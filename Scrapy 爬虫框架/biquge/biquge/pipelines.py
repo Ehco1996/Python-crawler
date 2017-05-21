@@ -24,7 +24,7 @@ class BiqugePipeline(object):
         connection = pymysql.connect(
             host='localhost',  # 连接的是本地数据库
             user='root',        # 自己的mysql用户名
-            passwd='19960202',  # 自己的密码
+            passwd='********',  # 自己的密码
             db='bqgxiaoshuo',      # 数据库的名字
             charset='utf8mb4',     # 默认的编码方式：
             cursorclass=pymysql.cursors.DictCursor)
@@ -44,5 +44,4 @@ class BiqugePipeline(object):
         finally:
             # 关闭连接
             connection.close()
-
             return item
