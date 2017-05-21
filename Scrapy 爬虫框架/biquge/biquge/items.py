@@ -17,3 +17,5 @@ class BiqugeItem(scrapy.Item):
     title = scrapy.Field()
     #正文
     body  = scrapy.Field()
+    #排序用id
+    order_id = scrapy.Field()

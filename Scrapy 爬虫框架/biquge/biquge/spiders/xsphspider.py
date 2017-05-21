@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from biquge.items import BiqugeItem
+from .sjzh import Ch2Num
 
 
 class XsphspiderSpider(scrapy.Spider):
@@ -21,16 +22,12 @@ class XsphspiderSpider(scrapy.Spider):
                 url = 'http://www.qu.la' + \
                     link.xpath('.//a/@href').extract()[0]
                 self.novel_list.append(url)
-        
+
         # 简单的去重
         self.novel_list = list(set(self.novel_list))
-        
-        
-        #for novel in self.novel_list:
-            '''
-            循环获取每一本小说的
-            所有章节连接
-            '''
+
+        # for novel in self.novel_list:
+           
         yield scrapy.Request(self.novel_list[0], callback=self.get_page_url)
 
     def get_page_url(self, response):
@@ -39,12 +36,8 @@ class XsphspiderSpider(scrapy.Spider):
         '''
         page_urls = response.xpath('.//dd/a/@href').extract()
 
-        priority = len(page_urls)
-
         for url in page_urls:
-            priority -=1
-            #print(priority)
-            yield scrapy.Request('http://www.qu.la'+url,priority=priority, callback=self.get_text)
+           yield scrapy.Request('http://www.qu.la' + url,callback=self.get_text)
 
     def get_text(self, response):
 
@@ -53,11 +46,11 @@ class XsphspiderSpider(scrapy.Spider):
         item['bookname'] = response.xpath(
             './/div[@class="con_top"]/a[2]/text()').extract()[0]
         item['title'] = response.xpath('.//h1/text()').extract()[0]
-        
-        #正文部分需要特殊处理
+        item['order_id'] = Ch2Num(response.xpath('.//h1/text()').extract()[0])
+        # 正文部分需要特殊处理
         body = response.xpath('.//div[@id="content"]/text()').extract()
         # 将抓到的body转换成字符串，接着去掉\t之类的排版符号，
-        text = ''.join(body).strip().replace('\u3000','')
+        text = ''.join(body).strip().replace('\u3000', '')
         item['body'] = text
 
         return item
