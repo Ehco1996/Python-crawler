@@ -57,6 +57,8 @@ def test(filename='blank.txt'):
 
         #一行代码解决多线程！
         pool.map(test_alive,proxys)
+        pool.close()
+        pool.join()
        
     # 将存活的ip写入文件
     Out_file(alive_ip)

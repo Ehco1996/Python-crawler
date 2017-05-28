@@ -2,11 +2,23 @@
 理由Selenium库爬取漫画网站
 并将漫画保存到本地
 爬取的地址是：http://comic.sfacg.com/
+多线程版本，没有解决ip封锁的问题
 '''
 
 import os
 from selenium import webdriver
 import requests
+from multiprocessing.dummy import Pool as ThreadPool
+
+
+class Item():
+    '''
+    模拟Scrapy
+    创建一个类
+    保存漫画的章节名和url地址
+    '''
+    url = None
+    name = None
 
 
 def mkdir(path):
@@ -17,15 +29,17 @@ def mkdir(path):
         os.mkdir(path)
 
 
-def SavePic(filename, url):
+def SavePic(item):
     '''
     通过requests库
     将抓取到的图片保存到本地
     '''
+    url = item.url
+    filename = item.name
     content = requests.get(url).content
     with open(filename, 'wb') as f:
         f.write(content)
-
+    print('当前文件 {} 下载完毕'.format(filename))
 
 def get_TOF(index_url):
     '''
@@ -67,8 +81,12 @@ def get_pic(Comics):
     '''
     打开每个章节的url，
     找到漫画图片的地址，
-    并写入到本地
+    保存在列表并返回
     '''
+    # 用于保存item的列表
+    comics_urls = []
+
+    # 从dict里分离漫画名和章节链接
     comic_list = Comics['urls']
     basedir = Comics['name']
 
@@ -80,7 +98,6 @@ def get_pic(Comics):
         # 创建章节目录
         dirname = basedir + '/' + browser.title.split('-')[1]
         mkdir(dirname)
-
         # 找到该漫画一共有多少页
         pageNum = len(browser.find_elements_by_tag_name('option'))
 
@@ -88,23 +105,27 @@ def get_pic(Comics):
         nextpage = browser.find_element_by_xpath('//*[@id="AD_j1"]/div/a[4]')
         # 找到图片地址，并点击下一页
         for i in range(pageNum):
-            pic_url = browser.find_element_by_id('curPic').get_attribute('src')
-            filename = dirname + '/' + str(i) + '.png'
-            SavePic(filename, pic_url)
-            # 点击下一页的按钮，加载下一张图
+            item = Item()
+            item.url = browser.find_element_by_id(
+                'curPic').get_attribute('src')
+            item.name = dirname + '/' + str(i) + '.png'
+            comics_urls.append(item)
             nextpage.click()
+        browser.quit()
 
-        print('当前章节\t{}  下载完毕'.format(browser.title))
-
-    browser.quit()
-    print('所有章节下载完毕')
+    return comics_urls
 
 
 def main():
-    url = str(input('请输入漫画首页地址： \n'))
-    Comics = get_TOF(url)
-    get_pic(Comics)
 
+    Comics_index = get_TOF('http://manhua.sfacg.com/mh/TTQQXY/')
+    Comics_items = get_pic(Comics_index)
+
+    # 开启多线程 线程数10
+    pool = ThreadPool(1)
+    pool.map(SavePic,Comics_items)
+    pool.close()
+    pool.join()
 
 if __name__ == '__main__':
     main()
