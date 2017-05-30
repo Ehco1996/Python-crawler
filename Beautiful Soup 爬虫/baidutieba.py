@@ -85,7 +85,7 @@ def main(base_url, deep):
         url_list.append(base_url + '&pn=' + str(50 * i))
     print('所有的网页已经下载到本地！ 开始筛选信息。。。。')
 
-    #循环写入所有的数据
+    # 循环写入所有的数据
     for url in url_list:
         content = get_content(url)
         Out2File(content)
@@ -94,7 +94,7 @@ def main(base_url, deep):
 
 base_url = 'http://tieba.baidu.com/f?kw=%E7%94%9F%E6%B4%BB%E5%A4%A7%E7%88%86%E7%82%B8&ie=utf-8'
 # 设置需要爬取的页码数量
-deep = 3
+deep = 1
 
 if __name__ == '__main__':
     main(base_url, deep)
