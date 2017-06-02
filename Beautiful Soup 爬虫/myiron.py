@@ -10,9 +10,7 @@ url： http://search.mysteel.com/price/list.ms?page=1&bn=1mp56ts&time2=2017-06-0
 
 import requests
 from bs4 import BeautifulSoup
-
-username = 'skyppe'
-password = 'wq19961106'
+from bs4.element import NavigableString
 
 
 def get_html(url, cookies):
@@ -26,26 +24,31 @@ def get_html(url, cookies):
 
 
 def get_url(url):
-    html = requests.get(url,timeout=15)
-    soup = BeautifulSoup(html.text,'lxml')
+    html = requests.get(url, timeout=15)
+    soup = BeautifulSoup(html.text, 'lxml')
     urls = []
-    result = soup.find_all('div',class_='resultBox')
+    result = soup.find_all('div', class_='resultBox')
     for i in result:
         url = i.find('a')['href']
         urls.append(url)
     return urls
 
 
-def get_one_data(urls,cookies):
-    for url in urls:
-        r = get_html(url,cookies)
-        soup = BeautifulSoup(r, 'lxml')
-        date = soup.find('div',class_='info').contents[1]
-        datalist = soup.find('tr',attrs={'bgcolor':'#FEFBEC'}).contents
-        data = datalist[-2].text
-        with open('hrb400_20MM.txt','a+') as f:
-            f.write(date+'\t'+data+'\n')
+def get_one_data(url, cookies):
 
+    r = get_html(url, cookies)
+    soup = BeautifulSoup(r, 'lxml')
+
+    date = soup.find('div', class_='info').contents[1]
+    # 判断是否抓到了数据
+    if type(date) != NavigableString:
+        date = soup.find('div', class_='info').contents[0]
+
+    datalist = soup.find('tr', attrs={'bgcolor': '#FEFBEC'}).contents
+    data = datalist[-2].text
+    with open('hrb400_20MM.txt', 'a+') as f:
+        f.write(date + '\t' + data + '\n')
+    print('当前处理日期{}'.format(date))
 
 
 if __name__ == '__main__':
@@ -60,19 +63,19 @@ if __name__ == '__main__':
         key, value = line.split('=', 1)
         cookies[key] = value
 
-    # 获取一年内符合要求的数据搜索页面    
+    # 获取一年内符合要求的数据搜索页面
     iron_urls = []
-    for i in range(20,22):
-        url = base_url+str(i)+suffix
+    for i in range(1, 58):
+        url = base_url + str(i) + suffix
         iron_urls.append(url)
-    
-    # 获取所有数据的详情
+
+    # 获取所有数据的详情的url页面
     urls = []
     for url in iron_urls:
-        urls+=(get_url(url))
-    print (urls)
-
+        urls += (get_url(url))
+  
     # 写入数据
     for url in urls:
-        get_one_data(urls,cookies)
+        get_one_data(url,cookies)
+        
     print('所有数据写入完毕')
