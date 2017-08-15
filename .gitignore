@@ -87,3 +87,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+浏览器模拟爬虫/.DS_Store
+.DS_Store
+.vscode/settings.json
