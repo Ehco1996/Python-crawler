@@ -91,9 +91,8 @@ def parse_news_id(categoryid, page_start):
 
 
 import time
+
 # 写了一个检测函数运行时间的装饰器
-
-
 def clock(func):
     def clocked(*args):
         t0 = time.perf_counter()
@@ -109,10 +108,10 @@ def clock(func):
 
 #@clock
 def main(page_start):
-    # 苹果分类的id
-    APPLE_ID = '32'
+    # 新闻分类的id
+    ID = '31'
     # 建立苹果新闻分类对象
-    apple = parse_news_id(APPLE_ID, page_start)
+    apple = parse_news_id(ID, page_start)
 
     # 利用迭代器抓取热评
     for newsid in apple:
@@ -131,9 +130,9 @@ if __name__ == '__main__':
     
     # 开启多进程模式
     from multiprocessing import Pool
-    pool = Pool()
+    pool = Pool()  
     # 进程池，每个进程抓取10页新闻的热评
-    groups = ([x for x in range(1, 31,10)])
+    groups = ([x for x in range(111, 191,10)])
     pool.map(main, groups)
     pool.close()
     pool.join()
