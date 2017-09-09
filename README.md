@@ -1,9 +1,9 @@
 # Python-crawler
 
-从零开始系统化的学习写Python爬虫。 
-主要是记录一下自己写Python爬虫的经过与心得。
-同时也是为了分享一下如何能更高效率的学习写爬虫。
-IDE：Vscode    Python版本: 3.6 
+从零开始系统化的学习写Python爬虫。   
+主要是记录一下自己写Python爬虫的经过与心得。   
+同时也是为了分享一下如何能更高效率的学习写爬虫。    
+IDE：Vscode    Python版本: 3.6   
 
 每天的学习记录都会 同步更新到：
 * 微信公众号： findyourownway
@@ -37,3 +37,14 @@ IDE：Vscode    Python版本: 3.6
 * Selenium模拟浏览器 https://zhuanlan.zhihu.com/p/27115580
 * 爬虫实践：获取快代理 https://zhuanlan.zhihu.com/p/27150025
 * 爬虫实践：漫画批量下载 https://zhuanlan.zhihu.com/p/27155429
+
+### 四： 练手项目
+
+* 爬虫实践：螺纹钢数据&Cookies https://zhuanlan.zhihu.com/p/27232687
+* 爬虫实践：登录正方教务系统 https://zhuanlan.zhihu.com/p/27256315
+* 爬虫应用： requests+django实现微信公众号后台 https://zhuanlan.zhihu.com/p/27625233
+* 爬虫应用： 12306火车票信息查询 https://zhuanlan.zhihu.com/p/27969976
+* 爬虫应用： 利用斗鱼Api抓取弹幕 https://zhuanlan.zhihu.com/p/28164017
+* 爬虫应用： 获取支付宝账单信息 https://zhuanlan.zhihu.com/p/28537306
+* 爬虫应用：IT之家热门段子（评论）爬取 https://zhuanlan.zhihu.com/p/28806210
+* 爬虫应用：一号店 商品信息查询程序 https://zhuanlan.zhihu.com/p/28982497
