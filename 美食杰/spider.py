@@ -10,13 +10,22 @@ from bs4 import BeautifulSoup
 
 
 # 排行榜入口url
-Base_url = 'http://top.meishi.cc/lanmu.php?cid=3'
+Top_food_url = 'http://top.meishi.cc/lanmu.php?cid=3'
+
+# 家常菜谱入口url
+Home_food_url = 'http://top.meishi.cc/lanmu.php?cid=13'
+
+# 中华菜系入口url
+China_food_url = 'http://top.meishi.cc/lanmu.php?cid=2'
+
+# 外国菜入口url
+Foreign_food_url = 'http://top.meishi.cc/lanmu.php?cid=10'
 
 
 def get_html_text(url):
     '''获取html文本'''
     try:
-        r = requests.get(Base_url, timeout=3)
+        r = requests.get(url, timeout=3)
         r.raise_for_status
         r.encoding = r.apparent_encoding
         return r.text
@@ -66,14 +75,20 @@ def parse_food_info(url):
 
 def main():
     '''程序入口'''
-
+    # 构造所有起始url列表
+    url_list = [Top_food_url, Home_food_url, China_food_url, Foreign_food_url]
     # 找到所有城市排行榜的url
-    citys = parse_city_id(Base_url)
-    # 解析各个城市的美食
-    for city in citys:
-        city_name = city['name']
-        # 利用生成器 迭代访问元素
-        for food_name, detial_url, img_url in parse_food_info(city['url']):
-            # 保存数据
-            # save_data()
-            pass
+    for url in url_list:
+        # 找到该分类下的所有cid
+        res = parse_city_id(url)
+        for page in res:
+            # 找到菜系名称
+            name = page['name']
+            # 利用生成器迭代返回结果
+            for food_name, detail_url, img_url in parse_food_info(page['url']):
+                #  save data
+                print('菜系：{}\t名字：{}\n做法：{}\n图片：{}'.format(
+                    name, food_name, detail_url, img_url))
+
+
+main()
