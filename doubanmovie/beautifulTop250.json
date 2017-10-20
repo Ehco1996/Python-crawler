@@ -1,0 +1,1754 @@
+{
+    "movies": [
+        {
+            "rank": "1",
+            "name": "肖申克的救赎 ",
+            "score": "9.6",
+            "quote": "希望让人自由。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2591006501&uk=740871509"
+        },
+        {
+            "rank": "2",
+            "name": "霸王别姬 ",
+            "score": "9.5",
+            "quote": "风华绝代。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2690509717&uk=3346263643"
+        },
+        {
+            "rank": "3",
+            "name": "这个杀手不太冷 ",
+            "score": "9.4",
+            "quote": "怪蜀黍和小萝莉不得不说的故事。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3531173834&uk=2721977435"
+        },
+        {
+            "rank": "4",
+            "name": "阿甘正传 ",
+            "score": "9.4",
+            "quote": "一部美国近现代史。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2232927241&uk=122944454"
+        },
+        {
+            "rank": "5",
+            "name": "美丽人生 ",
+            "score": "9.5",
+            "quote": "最美的谎言。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=678125687&uk=2554757493"
+        },
+        {
+            "rank": "6",
+            "name": "千与千寻 ",
+            "score": "9.2",
+            "quote": "最好的宫崎骏，最好的久石让。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3132285801&uk=3075717006"
+        },
+        {
+            "rank": "7",
+            "name": "辛德勒的名单 ",
+            "score": "9.4",
+            "quote": "拯救一个人，就是拯救整个世界。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=601527744&uk=3106137638"
+        },
+        {
+            "rank": "8",
+            "name": "泰坦尼克号 ",
+            "score": "9.2",
+            "quote": "失去的才是永恒的。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3550431788&uk=125835570"
+        },
+        {
+            "rank": "9",
+            "name": "盗梦空间 ",
+            "score": "9.2",
+            "quote": "诺兰给了我们一场无法盗取的梦。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1289055782&uk=3894954988"
+        },
+        {
+            "rank": "10",
+            "name": "机器人总动员 ",
+            "score": "9.3",
+            "quote": "小瓦力，大人生。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3334896381&uk=3948513758"
+        },
+        {
+            "rank": "11",
+            "name": "海上钢琴师 ",
+            "score": "9.2",
+            "quote": "每个人都要走一条自己坚定了的路，就算是粉身碎骨。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3633307607&uk=2373288888"
+        },
+        {
+            "rank": "12",
+            "name": "三傻大闹宝莱坞 ",
+            "score": "9.1",
+            "quote": "英俊版憨豆，高情商版谢耳朵。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4272748631&uk=2738225451"
+        },
+        {
+            "rank": "13",
+            "name": "忠犬八公的故事 ",
+            "score": "9.2",
+            "quote": "永远都不能忘记你所爱的人。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=946856033&uk=1546279440"
+        },
+        {
+            "rank": "14",
+            "name": "放牛班的春天 ",
+            "score": "9.2",
+            "quote": "天籁一般的童声，是最接近上帝的存在。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1053354418&uk=5561471"
+        },
+        {
+            "rank": "15",
+            "name": "大话西游之大圣娶亲 ",
+            "score": "9.2",
+            "quote": "一生所爱。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1373210662&uk=3198770983"
+        },
+        {
+            "rank": "16",
+            "name": "教父 ",
+            "score": "9.2",
+            "quote": "千万不要记恨你的对手，这样会让你失去理智。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2072868916&uk=1666264965"
+        },
+        {
+            "rank": "17",
+            "name": "龙猫 ",
+            "score": "9.1",
+            "quote": "人人心中都有个龙猫，童年就永远不会消失。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1638453595&uk=139801957"
+        },
+        {
+            "rank": "18",
+            "name": "楚门的世界 ",
+            "score": "9.1",
+            "quote": "如果再也不能见到你，祝你早安，午安，晚安。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3805257969&uk=3700607964"
+        },
+        {
+            "rank": "19",
+            "name": "乱世佳人 ",
+            "score": "9.2",
+            "quote": "Tomorrow is another day.",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1362579219&uk=2688816870"
+        },
+        {
+            "rank": "20",
+            "name": "天堂电影院 ",
+            "score": "9.1",
+            "quote": "那些吻戏，那些青春，都在影院的黑暗里被泪水冲刷得无比清晰。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3464375868&uk=219081398"
+        },
+        {
+            "rank": "21",
+            "name": "触不可及 ",
+            "score": "9.1",
+            "quote": "满满温情的高雅喜剧。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3745141988&uk=756635525"
+        },
+        {
+            "rank": "22",
+            "name": "当幸福来敲门 ",
+            "score": "8.9",
+            "quote": "平民励志片。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3258644707&uk=1245733621"
+        },
+        {
+            "rank": "23",
+            "name": "熔炉 ",
+            "score": "9.2",
+            "quote": "我们一路奋战不是为了改变世界，而是为了不让世界改变我们。",
+            "download_link": "https://pan.baidu.com/pcloud/album/info?uk=239727952&album_id=2283621070255866984"
+        },
+        {
+            "rank": "24",
+            "name": "无间道 ",
+            "score": "9.0",
+            "quote": "香港电影史上永不过时的杰作。",
+            "download_link": "https://pan.baidu.com/pcloud/album/info?uk=2557474713&album_id=8927497413943773151"
+        },
+        {
+            "rank": "25",
+            "name": "搏击俱乐部 ",
+            "score": "9.0",
+            "quote": "邪恶与平庸蛰伏于同一个母体，在特定的时间互相对峙。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2090218086&uk=2588811632"
+        },
+        {
+            "rank": "26",
+            "name": "十二怒汉 ",
+            "score": "9.4",
+            "quote": "1957年的理想主义。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=856530390&uk=1870504545"
+        },
+        {
+            "rank": "27",
+            "name": "星际穿越 ",
+            "score": "9.1",
+            "quote": "爱是一种力量，让我们超越时空感知它的存在。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2439648081&uk=408227742"
+        },
+        {
+            "rank": "28",
+            "name": "怦然心动 ",
+            "score": "8.9",
+            "quote": "真正的幸福是来自内心深处。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3996736391&uk=1380525585"
+        },
+        {
+            "rank": "29",
+            "name": "指环王3：王者无敌 ",
+            "score": "9.1",
+            "quote": "史诗的终章。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4100886849&uk=1326096839"
+        },
+        {
+            "rank": "30",
+            "name": "少年派的奇幻漂流 ",
+            "score": "9.0",
+            "quote": "瑰丽壮观、无人能及的冒险之旅。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=769419473&uk=4009498"
+        },
+        {
+            "rank": "31",
+            "name": "天空之城 ",
+            "score": "9.0",
+            "quote": "对天空的追逐，永不停止。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1634018514&uk=139801957"
+        },
+        {
+            "rank": "32",
+            "name": "鬼子来了 ",
+            "score": "9.2",
+            "quote": "对敌人的仁慈，就是对自己残忍。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2313243772&uk=609021507"
+        },
+        {
+            "rank": "33",
+            "name": "蝙蝠侠：黑暗骑士 ",
+            "score": "9.0",
+            "quote": "无尽的黑暗。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2487895504&uk=956619845"
+        },
+        {
+            "rank": "34",
+            "name": "罗马假日 ",
+            "score": "8.9",
+            "quote": "爱情哪怕只有一天。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1939794412&uk=893880925"
+        },
+        {
+            "rank": "35",
+            "name": "活着 ",
+            "score": "9.1",
+            "quote": "张艺谋最好的电影。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2722008587&uk=2737744809"
+        },
+        {
+            "rank": "36",
+            "name": "大话西游之月光宝盒 ",
+            "score": "8.9",
+            "quote": "旷古烁今。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3864487604&uk=1547139211"
+        },
+        {
+            "rank": "37",
+            "name": "两杆大烟枪 ",
+            "score": "9.0",
+            "quote": "4个臭皮匠顶个诸葛亮，盖·里奇果然不是盖的。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1057032289&uk=3123498894"
+        },
+        {
+            "rank": "38",
+            "name": "飞屋环游记 ",
+            "score": "8.9",
+            "quote": "最后那些最无聊的事情，才是最值得怀念的。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2239619733&uk=1445319502"
+        },
+        {
+            "rank": "39",
+            "name": "窃听风暴 ",
+            "score": "9.1",
+            "quote": "别样人生。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3652593784&uk=3512718891"
+        },
+        {
+            "rank": "40",
+            "name": "飞越疯人院 ",
+            "score": "9.0",
+            "quote": "自由万岁。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2918309811&uk=4088664394"
+        },
+        {
+            "rank": "41",
+            "name": "海豚湾 ",
+            "score": "9.3",
+            "quote": "海豚的微笑，是世界上最高明的伪装。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=670832200&uk=1208518303"
+        },
+        {
+            "rank": "42",
+            "name": "闻香识女人 ",
+            "score": "8.9",
+            "quote": "史上最美的探戈。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=378135472&uk=3512718891"
+        },
+        {
+            "rank": "43",
+            "name": "V字仇杀队 ",
+            "score": "8.8",
+            "quote": "一张面具背后的理想与革命。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=689077595&uk=122944454"
+        },
+        {
+            "rank": "44",
+            "name": "哈尔的移动城堡 ",
+            "score": "8.9",
+            "quote": "带着心爱的人在天空飞翔。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4070770640&uk=1563836724"
+        },
+        {
+            "rank": "45",
+            "name": "教父2 ",
+            "score": "9.1",
+            "quote": "优雅的孤独。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2447887059&uk=1093518467"
+        },
+        {
+            "rank": "46",
+            "name": "控方证人 ",
+            "score": "9.6",
+            "quote": "比利·怀德满分作品。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3997732480&uk=2752131612"
+        },
+        {
+            "rank": "47",
+            "name": "美丽心灵 ",
+            "score": "8.9",
+            "quote": "爱是一切逻辑和原由。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4083465040&uk=1984532325"
+        },
+        {
+            "rank": "48",
+            "name": "指环王2：双塔奇兵 ",
+            "score": "8.9",
+            "quote": "承前启后的史诗篇章。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2188656186&uk=187536068"
+        },
+        {
+            "rank": "49",
+            "name": "指环王1：魔戒再现 ",
+            "score": "8.9",
+            "quote": "传说的开始。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4055521103&uk=106837059"
+        },
+        {
+            "rank": "50",
+            "name": "死亡诗社 ",
+            "score": "8.9",
+            "quote": "当一个死水般的体制内出现一个活跃的变数时，所有的腐臭都站在了光明的对面。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3727305178&uk=2403808060"
+        },
+        {
+            "rank": "51",
+            "name": "情书 ",
+            "score": "8.8",
+            "quote": "暗恋的极致。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=330204841&uk=726451123"
+        },
+        {
+            "rank": "52",
+            "name": "辩护人 ",
+            "score": "9.1",
+            "quote": "电影的现实意义大过电影本身。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4235621586&uk=4287984733"
+        },
+        {
+            "rank": "53",
+            "name": "天使爱美丽 ",
+            "score": "8.7",
+            "quote": "法式小清新。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=281246884&uk=3864380585"
+        },
+        {
+            "rank": "54",
+            "name": "美国往事 ",
+            "score": "9.1",
+            "quote": "往事如烟，无处祭奠。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1044539459&uk=912539523"
+        },
+        {
+            "rank": "55",
+            "name": "饮食男女 ",
+            "score": "9.0",
+            "quote": "人生不能像做菜，把所有的料都准备好了才下锅。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1635884892&uk=3993130536"
+        },
+        {
+            "rank": "56",
+            "name": "钢琴家 ",
+            "score": "9.0",
+            "quote": "音乐能化解仇恨。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1225132360&uk=4127742961"
+        },
+        {
+            "rank": "57",
+            "name": "狮子王 ",
+            "score": "8.9",
+            "quote": "动物版《哈姆雷特》。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=39833076&uk=609021507"
+        },
+        {
+            "rank": "58",
+            "name": "七宗罪 ",
+            "score": "8.7",
+            "quote": "警察抓小偷，老鼠玩死猫。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2840039918&uk=1718950491"
+        },
+        {
+            "rank": "59",
+            "name": "致命魔术 ",
+            "score": "8.8",
+            "quote": "孪生蝙蝠侠大战克隆金刚狼。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=861837662&uk=2200594197"
+        },
+        {
+            "rank": "60",
+            "name": "被嫌弃的松子的一生 ",
+            "score": "8.9",
+            "quote": "以戏谑来戏谑戏谑。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3073079708&uk=3792302172"
+        },
+        {
+            "rank": "61",
+            "name": "疯狂动物城 ",
+            "score": "9.2",
+            "quote": "迪士尼给我们营造的乌托邦就是这样，永远善良勇敢，永远出乎意料。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3746992399&uk=3911443727"
+        },
+        {
+            "rank": "62",
+            "name": "小鞋子 ",
+            "score": "9.2",
+            "quote": "奔跑的孩子是天使。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=250318795&uk=2373288888"
+        },
+        {
+            "rank": "63",
+            "name": "勇敢的心 ",
+            "score": "8.8",
+            "quote": "史诗大片的典范。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3750672315&uk=2373288888"
+        },
+        {
+            "rank": "64",
+            "name": "剪刀手爱德华 ",
+            "score": "8.7",
+            "quote": "浪漫忧郁的成人童话。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3582356101&uk=1057283767"
+        },
+        {
+            "rank": "65",
+            "name": "音乐之声 ",
+            "score": "8.9",
+            "quote": "用音乐化解仇恨，让歌声串起美好。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=629553724&uk=187713544"
+        },
+        {
+            "rank": "66",
+            "name": "低俗小说 ",
+            "score": "8.8",
+            "quote": "故事的高级讲法。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=370661008&uk=3993130536"
+        },
+        {
+            "rank": "67",
+            "name": "素媛 ",
+            "score": "9.1",
+            "quote": "受过伤害的人总是笑得最开心，因为他们不愿意让身边的人承受一样的痛苦。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1554614055&uk=1733885966"
+        },
+        {
+            "rank": "68",
+            "name": "本杰明·巴顿奇事 ",
+            "score": "8.7",
+            "quote": "在时间之河里感受溺水之苦。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3456816967&uk=876893014"
+        },
+        {
+            "rank": "69",
+            "name": "入殓师 ",
+            "score": "8.8",
+            "quote": "死可能是一道门，逝去并不是终结，而是超越，走向下一程。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3882946622&uk=756635525"
+        },
+        {
+            "rank": "70",
+            "name": "沉默的羔羊 ",
+            "score": "8.7",
+            "quote": "安东尼·霍普金斯的顶级表演。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3086088799&uk=609021507"
+        },
+        {
+            "rank": "71",
+            "name": "黑客帝国 ",
+            "score": "8.8",
+            "quote": "视觉革命。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3650530827&uk=106255853"
+        },
+        {
+            "rank": "72",
+            "name": "拯救大兵瑞恩 ",
+            "score": "8.8",
+            "quote": "美利坚精神输出大片No1.",
+            "download_link": "https://pan.baidu.com/share/link?shareid=870638300&uk=1470762801"
+        },
+        {
+            "rank": "73",
+            "name": "西西里的美丽传说 ",
+            "score": "8.7",
+            "quote": "美丽无罪。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1958236896&uk=1057283767"
+        },
+        {
+            "rank": "74",
+            "name": "玛丽和马克思 ",
+            "score": "8.9",
+            "quote": "你是我最好的朋友，你是我唯一的朋友 。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3994308221&uk=1870504545"
+        },
+        {
+            "rank": "75",
+            "name": "蝴蝶效应 ",
+            "score": "8.7",
+            "quote": "人的命运被自己瞬间的抉择改变。",
+            "download_link": "https://pan.baidu.com/pcloud/album/info?uk=2606957240&album_id=4871749380545637392"
+        },
+        {
+            "rank": "76",
+            "name": "春光乍泄 ",
+            "score": "8.8",
+            "quote": "爱情纠缠，男女一致。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2601481035&uk=1785947437"
+        },
+        {
+            "rank": "77",
+            "name": "心灵捕手 ",
+            "score": "8.7",
+            "quote": "人生中应该拥有这样的一段豁然开朗。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1035044273&uk=1462480057"
+        },
+        {
+            "rank": "78",
+            "name": "让子弹飞 ",
+            "score": "8.7",
+            "quote": "你给我翻译翻译，神马叫做TMD的惊喜。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1678312694&uk=609021507"
+        },
+        {
+            "rank": "79",
+            "name": "幽灵公主 ",
+            "score": "8.8",
+            "quote": "人与自然的战争史诗。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4113645046&uk=1443102635"
+        },
+        {
+            "rank": "80",
+            "name": "大闹天宫 ",
+            "score": "9.2",
+            "quote": "经典之作，历久弥新。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=125208983&uk=3778752078"
+        },
+        {
+            "rank": "81",
+            "name": "第六感 ",
+            "score": "8.8",
+            "quote": "深入内心的恐怖，出人意料的结局。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1284895343&uk=4132288377"
+        },
+        {
+            "rank": "82",
+            "name": "阳光灿烂的日子 ",
+            "score": "8.7",
+            "quote": "一场华丽的意淫。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2134897303&uk=1084372931"
+        },
+        {
+            "rank": "83",
+            "name": "重庆森林 ",
+            "score": "8.6",
+            "quote": "寂寞没有期限。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4028893852&uk=122944454"
+        },
+        {
+            "rank": "84",
+            "name": "大鱼 ",
+            "score": "8.7",
+            "quote": "抱着梦想而活着的人是幸福的，怀抱梦想而死去的人是不朽的。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1539391748&uk=4127742961"
+        },
+        {
+            "rank": "85",
+            "name": "射雕英雄传之东成西就 ",
+            "score": "8.7",
+            "quote": "百看不厌。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1983625875&uk=2003600126"
+        },
+        {
+            "rank": "86",
+            "name": "禁闭岛 ",
+            "score": "8.6",
+            "quote": "昔日翩翩少年，今日大腹便便。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3221347862&uk=3798768640"
+        },
+        {
+            "rank": "87",
+            "name": "甜蜜蜜 ",
+            "score": "8.7",
+            "quote": "相逢只要一瞬间，等待却像是一辈子。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2154095814&uk=3295145412"
+        },
+        {
+            "rank": "88",
+            "name": "阳光姐妹淘 ",
+            "score": "8.8",
+            "quote": "再多各自牛逼的时光，也比不上一起傻逼的岁月。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1132433723&uk=219081398"
+        },
+        {
+            "rank": "89",
+            "name": "上帝之城 ",
+            "score": "8.9",
+            "quote": "被上帝抛弃了的上帝之城。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=312466558&uk=1057283767"
+        },
+        {
+            "rank": "90",
+            "name": "致命ID ",
+            "score": "8.6",
+            "quote": "最不可能的那个人永远是最可能的。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1996747052&uk=1752463755"
+        },
+        {
+            "rank": "91",
+            "name": "一一 ",
+            "score": "8.9",
+            "quote": "我们都曾经是一一。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2912296224&uk=3993130536"
+        },
+        {
+            "rank": "92",
+            "name": "狩猎 ",
+            "score": "9.0",
+            "quote": "人言可畏。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4153909107&uk=1208518303"
+        },
+        {
+            "rank": "93",
+            "name": "告白 ",
+            "score": "8.7",
+            "quote": "没有一人完全善，也没有一人完全恶。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4117656152&uk=3123498894"
+        },
+        {
+            "rank": "94",
+            "name": "末代皇帝 ",
+            "score": "8.9",
+            "quote": "“不要跟我比惨，我比你更惨”再适合这部电影不过了。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=393915399&uk=1010046989"
+        },
+        {
+            "rank": "95",
+            "name": "布达佩斯大饭店 ",
+            "score": "8.7",
+            "quote": "小清新的故事里注入了大历史的情怀。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4117142711&uk=2298737973"
+        },
+        {
+            "rank": "96",
+            "name": "加勒比海盗 ",
+            "score": "8.6",
+            "quote": "约翰尼·德普的独角戏。",
+            "download_link": "https://pan.baidu.com/pcloud/album/info?uk=2101200196&album_id=8812019080850495109"
+        },
+        {
+            "rank": "97",
+            "name": "断背山 ",
+            "score": "8.6",
+            "quote": "每个人心中都有一座断背山。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2182085320&uk=1057283767"
+        },
+        {
+            "rank": "98",
+            "name": "爱在黎明破晓前 ",
+            "score": "8.7",
+            "quote": "缘分是个连绵词，最美不过一瞬。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2277209920&uk=4281536321"
+        },
+        {
+            "rank": "99",
+            "name": "摩登时代 ",
+            "score": "9.2",
+            "quote": "大时代中的人生，小人物的悲喜。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2769501106&uk=1986947333"
+        },
+        {
+            "rank": "100",
+            "name": "猫鼠游戏 ",
+            "score": "8.7",
+            "quote": "骗子大师和执著警探的你追我跑故事。 ",
+            "download_link": "https://pan.baidu.com/pcloud/album/info?uk=671159490&album_id=3083330752969175801"
+        },
+        {
+            "rank": "101",
+            "name": "阿凡达 ",
+            "score": "8.6",
+            "quote": "绝对意义上的美轮美奂。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1129396864&uk=2788160570"
+        },
+        {
+            "rank": "102",
+            "name": "哈利·波特与魔法石 ",
+            "score": "8.7",
+            "quote": "童话世界的开端。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1083317528&uk=2133054349"
+        },
+        {
+            "rank": "103",
+            "name": "风之谷 ",
+            "score": "8.8",
+            "quote": "动画片的圣经。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2765837283&uk=4112633898"
+        },
+        {
+            "rank": "104",
+            "name": "爱在日落黄昏时 ",
+            "score": "8.7",
+            "quote": "九年后的重逢是世俗和责任的交叠，没了悸动和青涩，沧桑而温暖。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3404333468&uk=1208518303"
+        },
+        {
+            "rank": "105",
+            "name": "侧耳倾听 ",
+            "score": "8.8",
+            "quote": "少女情怀总是诗。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1904770750&uk=2928613399"
+        },
+        {
+            "rank": "106",
+            "name": "穿条纹睡衣的男孩 ",
+            "score": "8.9",
+            "quote": "尽管有些不切实际的幻想，这部电影依旧是一部感人肺腑的佳作。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3499977918&uk=2298737973"
+        },
+        {
+            "rank": "107",
+            "name": "萤火虫之墓 ",
+            "score": "8.7",
+            "quote": "幸福是生生不息，却难以触及的远。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1765932879&uk=1073746605"
+        },
+        {
+            "rank": "108",
+            "name": "消失的爱人 ",
+            "score": "8.7",
+            "quote": "年度最佳date movie。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2363510038&uk=1715898802"
+        },
+        {
+            "rank": "109",
+            "name": "超脱 ",
+            "score": "8.8",
+            "quote": "穷尽一生，我们要学会的，不过是彼此拥抱。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2294855158&uk=1090774545"
+        },
+        {
+            "rank": "110",
+            "name": "驯龙高手 ",
+            "score": "8.7",
+            "quote": "和谐的生活离不开摸头与被摸头。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2893289115&uk=728140235"
+        },
+        {
+            "rank": "111",
+            "name": "看不见的客人 ",
+            "score": "8.7",
+            "quote": "暂无短语",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1223584350&uk=239727952"
+        },
+        {
+            "rank": "112",
+            "name": "菊次郎的夏天 ",
+            "score": "8.7",
+            "quote": "从没见过那么流氓的温柔，从没见过那么温柔的流氓。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3156678605&uk=3355671997"
+        },
+        {
+            "rank": "113",
+            "name": "倩女幽魂 ",
+            "score": "8.6",
+            "quote": "两张绝世的脸。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2449280255&uk=1467449702"
+        },
+        {
+            "rank": "114",
+            "name": "幸福终点站 ",
+            "score": "8.6",
+            "quote": "有时候幸福需要等一等。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=640000194&uk=306474339"
+        },
+        {
+            "rank": "115",
+            "name": "海洋 ",
+            "score": "9.0",
+            "quote": "大海啊，不全是水。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=658948468&uk=1596891073"
+        },
+        {
+            "rank": "116",
+            "name": "恐怖直播 ",
+            "score": "8.7",
+            "quote": "恐怖分子的“秋菊打官司”。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4194944661&uk=239489753"
+        },
+        {
+            "rank": "117",
+            "name": "七武士 ",
+            "score": "9.2",
+            "quote": "时代悲歌。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3784491034&uk=19263195"
+        },
+        {
+            "rank": "118",
+            "name": "岁月神偷 ",
+            "score": "8.6",
+            "quote": "岁月流逝，来日可追。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=480361760&uk=1280729612"
+        },
+        {
+            "rank": "119",
+            "name": "红辣椒 ",
+            "score": "8.9",
+            "quote": "梦的勾结。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1043860283&uk=3277541605"
+        },
+        {
+            "rank": "120",
+            "name": "神偷奶爸 ",
+            "score": "8.5",
+            "quote": "Mr. I Don't Care其实也有Care的时候。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2355218483&uk=4113435587"
+        },
+        {
+            "rank": "121",
+            "name": "借东西的小人阿莉埃蒂 ",
+            "score": "8.7",
+            "quote": "曾经的那段美好会沉淀为一辈子的记忆。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1534570892&uk=1563836724"
+        },
+        {
+            "rank": "122",
+            "name": "电锯惊魂 ",
+            "score": "8.6",
+            "quote": "真相就在眼前。",
+            "download_link": "https://pan.baidu.com/pcloud/album/info?uk=3861946010&album_id=4976698570985277056"
+        },
+        {
+            "rank": "123",
+            "name": "谍影重重3 ",
+            "score": "8.7",
+            "quote": "像吃了苏打饼一样干脆的电影。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=144453654&uk=3980756933"
+        },
+        {
+            "rank": "124",
+            "name": "杀人回忆 ",
+            "score": "8.6",
+            "quote": "关于连环杀人悬案的集体回忆。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3128164472&uk=1118100635"
+        },
+        {
+            "rank": "125",
+            "name": "燃情岁月 ",
+            "score": "8.7",
+            "quote": "传奇，不是每个人都可以拥有。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3740253259&uk=1134570880"
+        },
+        {
+            "rank": "126",
+            "name": "真爱至上 ",
+            "score": "8.5",
+            "quote": "爱，是个动词。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3694697788&uk=1948704008"
+        },
+        {
+            "rank": "127",
+            "name": "雨人 ",
+            "score": "8.6",
+            "quote": "生活在自己的世界里，也可以让周围的人显得可笑和渺小。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2812274482&uk=3849557806"
+        },
+        {
+            "rank": "128",
+            "name": "贫民窟的百万富翁 ",
+            "score": "8.5",
+            "quote": "上帝之城+猜火车+阿甘正传+开心辞典=山寨富翁",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2689611404&uk=740383300"
+        },
+        {
+            "rank": "129",
+            "name": "记忆碎片 ",
+            "score": "8.5",
+            "quote": "一个针管引发的血案。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1424346026&uk=2905975823"
+        },
+        {
+            "rank": "130",
+            "name": "东邪西毒 ",
+            "score": "8.6",
+            "quote": "电影诗。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=445897317&uk=3993130536"
+        },
+        {
+            "rank": "131",
+            "name": "虎口脱险 ",
+            "score": "8.9",
+            "quote": "永远看不腻的喜剧。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3226976195&uk=3993130536"
+        },
+        {
+            "rank": "132",
+            "name": "疯狂原始人 ",
+            "score": "8.7",
+            "quote": "老少皆宜，这就是好莱坞动画的魅力。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=710719130&uk=3948513758"
+        },
+        {
+            "rank": "133",
+            "name": "怪兽电力公司 ",
+            "score": "8.6",
+            "quote": "不要给它起名字，起了名字就有感情了。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=748794104&uk=773841262"
+        },
+        {
+            "rank": "134",
+            "name": "喜宴 ",
+            "score": "8.8",
+            "quote": "中国家庭的喜怒哀乐忍。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1607303939&uk=3613093378"
+        },
+        {
+            "rank": "135",
+            "name": "小森林 夏秋篇 ",
+            "score": "8.9",
+            "quote": "那些静得只能听见呼吸的日子里，你明白孤独即生活。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1442569583&uk=137688797"
+        },
+        {
+            "rank": "136",
+            "name": "卢旺达饭店 ",
+            "score": "8.8",
+            "quote": "当这个世界闭上双眼，他却敞开了怀抱。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1597569482&uk=306474339"
+        },
+        {
+            "rank": "137",
+            "name": "喜剧之王 ",
+            "score": "8.5",
+            "quote": "我是一个演员。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1392479513&uk=2588811632"
+        },
+        {
+            "rank": "138",
+            "name": "黑天鹅 ",
+            "score": "8.5",
+            "quote": "黑暗之美。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1741557677&uk=5561471"
+        },
+        {
+            "rank": "139",
+            "name": "英雄本色 ",
+            "score": "8.7",
+            "quote": "英雄泪短，兄弟情长。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3338749763&uk=1084372931"
+        },
+        {
+            "rank": "140",
+            "name": "猜火车 ",
+            "score": "8.5",
+            "quote": "不可猜的青春迷笛。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=927156313&uk=1230070530"
+        },
+        {
+            "rank": "141",
+            "name": "魂断蓝桥 ",
+            "score": "8.8",
+            "quote": "中国式内在的美国电影。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2174911837&uk=3948513758"
+        },
+        {
+            "rank": "142",
+            "name": "穿越时空的少女 ",
+            "score": "8.6",
+            "quote": "爱上未来的你。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2437980294&uk=3514302771"
+        },
+        {
+            "rank": "143",
+            "name": "恋恋笔记本 ",
+            "score": "8.5",
+            "quote": "爱情没有那么多借口，如果不能圆满，只能说明爱的不够。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2513098196&uk=2003600126"
+        },
+        {
+            "rank": "144",
+            "name": "雨中曲 ",
+            "score": "8.9",
+            "quote": "骨灰级歌舞片。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=111051603&uk=3512718891"
+        },
+        {
+            "rank": "145",
+            "name": "傲慢与偏见 ",
+            "score": "8.4",
+            "quote": "爱是摈弃傲慢与偏见之后的曙光。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=542759696&uk=371467613"
+        },
+        {
+            "rank": "146",
+            "name": "教父3 ",
+            "score": "8.7",
+            "quote": "任何信念的力量，都无法改变命运。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3495786878&uk=1383595605"
+        },
+        {
+            "rank": "147",
+            "name": "完美的世界 ",
+            "score": "9.0",
+            "quote": "坏人的好总是比好人的好来得更感人。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2525949067&uk=708168170"
+        },
+        {
+            "rank": "148",
+            "name": "纵横四海 ",
+            "score": "8.7",
+            "quote": "香港浪漫主义警匪动作片的巅峰之作。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=123600154&uk=610160762"
+        },
+        {
+            "rank": "149",
+            "name": "萤火之森 ",
+            "score": "8.7",
+            "quote": "触不到的恋人。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4013531307&uk=2805951347"
+        },
+        {
+            "rank": "150",
+            "name": "玩具总动员3 ",
+            "score": "8.8",
+            "quote": "跨度十五年的欢乐与泪水。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1088262327&uk=3328143755"
+        },
+        {
+            "rank": "151",
+            "name": "哈利·波特与死亡圣器(下) ",
+            "score": "8.6",
+            "quote": "10年的完美句点。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2237698980&uk=1870504545"
+        },
+        {
+            "rank": "152",
+            "name": "7号房的礼物 ",
+            "score": "8.6",
+            "quote": "《我是山姆》的《美丽人生》。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4054115827&uk=825497707"
+        },
+        {
+            "rank": "153",
+            "name": "二十二 ",
+            "score": "8.8",
+            "quote": "暂无短语",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2586470523&uk=3715384157"
+        },
+        {
+            "rank": "154",
+            "name": "花样年华 ",
+            "score": "8.5",
+            "quote": "偷情本没有这样美。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4221562781&uk=3702969232"
+        },
+        {
+            "rank": "155",
+            "name": "人工智能 ",
+            "score": "8.6",
+            "quote": "对爱的执着，可以超越一切。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3231602468&uk=3794903389"
+        },
+        {
+            "rank": "156",
+            "name": "我是山姆 ",
+            "score": "8.8",
+            "quote": "爱并不需要智商 。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3298274077&uk=2606097724"
+        },
+        {
+            "rank": "157",
+            "name": "浪潮 ",
+            "score": "8.7",
+            "quote": "世界离独裁只有五天。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=506394902&uk=1208518303"
+        },
+        {
+            "rank": "158",
+            "name": "海边的曼彻斯特 ",
+            "score": "8.6",
+            "quote": "我们都有权利不与自己的过去和解。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4237111956&uk=3223869846"
+        },
+        {
+            "rank": "159",
+            "name": "荒蛮故事 ",
+            "score": "8.7",
+            "quote": "始于荒诞，止于更荒诞。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=763839943&uk=3666173519"
+        },
+        {
+            "rank": "160",
+            "name": "香水 ",
+            "score": "8.4",
+            "quote": "一个单凭体香达到高潮的男人。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3561031152&uk=207354018"
+        },
+        {
+            "rank": "161",
+            "name": "冰川时代 ",
+            "score": "8.4",
+            "quote": "松鼠才是角儿。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2431439079&uk=2085362381"
+        },
+        {
+            "rank": "162",
+            "name": "朗读者 ",
+            "score": "8.5",
+            "quote": "当爱情跨越年龄的界限，它似乎能变得更久远一点，成为一种责任，一种水到渠成的相濡以沫。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=842931339&uk=657919052"
+        },
+        {
+            "rank": "163",
+            "name": "追随 ",
+            "score": "8.9",
+            "quote": "诺兰的牛逼来源于内心散发出的恐惧。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3431357896&uk=1208518303"
+        },
+        {
+            "rank": "164",
+            "name": "撞车 ",
+            "score": "8.6",
+            "quote": "天使与魔鬼的冲撞。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2067004405&uk=268856074"
+        },
+        {
+            "rank": "165",
+            "name": "小森林 冬春篇 ",
+            "score": "8.9",
+            "quote": "尊敬他人，尊敬你生活的这片土地，明白孤独是人生的常态。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3640145599&uk=239727952"
+        },
+        {
+            "rank": "166",
+            "name": "一次别离 ",
+            "score": "8.7",
+            "quote": "只有有信仰的人才能说出事实真相。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=33770159&uk=2573448120"
+        },
+        {
+            "rank": "167",
+            "name": "心迷宫 ",
+            "score": "8.6",
+            "quote": "荒诞讽刺，千奇百巧，抽丝剥茧，百转千回。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=237923182&uk=609021507"
+        },
+        {
+            "rank": "168",
+            "name": "罗生门 ",
+            "score": "8.7",
+            "quote": "人生的N种可能性。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2530742934&uk=1259487253"
+        },
+        {
+            "rank": "169",
+            "name": "时空恋旅人 ",
+            "score": "8.6",
+            "quote": "把每天当作最后一天般珍惜度过，积极拥抱生活，就是幸福。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1526810371&uk=1084372931"
+        },
+        {
+            "rank": "170",
+            "name": "唐伯虎点秋香 ",
+            "score": "8.4",
+            "quote": "华太师是黄霑，吴镇宇四大才子之一。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3857075018&uk=122944454"
+        },
+        {
+            "rank": "171",
+            "name": "超能陆战队 ",
+            "score": "8.6",
+            "quote": "Balalala~~~",
+            "download_link": "https://pan.baidu.com/share/link?shareid=901127394&uk=2751999408"
+        },
+        {
+            "rank": "172",
+            "name": "蝙蝠侠：黑暗骑士崛起 ",
+            "score": "8.5",
+            "quote": "诺兰就是保证。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4136909106&uk=609021507"
+        },
+        {
+            "rank": "173",
+            "name": "战争之王 ",
+            "score": "8.5",
+            "quote": "做一颗让别人需要你的棋子。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4014435721&uk=1119297632"
+        },
+        {
+            "rank": "174",
+            "name": "可可西里 ",
+            "score": "8.6",
+            "quote": "坚硬的信仰。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3947424960&uk=609021507"
+        },
+        {
+            "rank": "175",
+            "name": "梦之安魂曲 ",
+            "score": "8.7",
+            "quote": "一场没有春天的噩梦。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3965477875&uk=1059570374"
+        },
+        {
+            "rank": "176",
+            "name": "地球上的星星 ",
+            "score": "8.8",
+            "quote": "天使保护事件始末。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=325645619&uk=673598831"
+        },
+        {
+            "rank": "177",
+            "name": "碧海蓝天 ",
+            "score": "8.7",
+            "quote": "在那片深蓝中，感受来自大海的忧伤寂寞与美丽自由。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=272433335&uk=1462480057"
+        },
+        {
+            "rank": "178",
+            "name": "未麻的部屋 ",
+            "score": "8.8",
+            "quote": "好的剧本是，就算你猜到了结局也猜不到全部。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3871714591&uk=1057283767"
+        },
+        {
+            "rank": "179",
+            "name": "秒速5厘米 ",
+            "score": "8.3",
+            "quote": "青春就是放弃和怀念。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1313129492&uk=674098141"
+        },
+        {
+            "rank": "180",
+            "name": "爆裂鼓手 ",
+            "score": "8.6",
+            "quote": "这个世界从不善待努力的人，努力了也不一定会成功，但是知道自己在努力，就是活下去的动力。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=496036307&uk=2318347588"
+        },
+        {
+            "rank": "181",
+            "name": "恐怖游轮 ",
+            "score": "8.3",
+            "quote": "不要企图在重复中寻找已经失去的爱。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3463913065&uk=2373288888"
+        },
+        {
+            "rank": "182",
+            "name": "谍影重重2 ",
+            "score": "8.5",
+            "quote": "谁说王家卫镜头很晃？",
+            "download_link": "https://pan.baidu.com/share/link?shareid=144453654&uk=3980756933"
+        },
+        {
+            "rank": "183",
+            "name": "谍影重重 ",
+            "score": "8.5",
+            "quote": "哗啦啦啦啦，天在下雨，哗啦啦啦啦，云在哭泣……找自己。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=144453654&uk=3980756933"
+        },
+        {
+            "rank": "184",
+            "name": "阿飞正传 ",
+            "score": "8.5",
+            "quote": "王家卫是一种风格，张国荣是一个代表。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1818376129&uk=3948513758"
+        },
+        {
+            "rank": "185",
+            "name": "达拉斯买家俱乐部 ",
+            "score": "8.6",
+            "quote": "Jared Leto的腿比女人还美！",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1861199286&uk=422770161"
+        },
+        {
+            "rank": "186",
+            "name": "海盗电台 ",
+            "score": "8.6",
+            "quote": "生命不止，摇滚不死。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1457503778&uk=1094277376"
+        },
+        {
+            "rank": "187",
+            "name": "牯岭街少年杀人事件 ",
+            "score": "8.7",
+            "quote": "弱者送给弱者的一刀。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3770282594&uk=1026229117"
+        },
+        {
+            "rank": "188",
+            "name": "惊魂记 ",
+            "score": "8.8",
+            "quote": "故事的反转与反转，分裂电影的始祖。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2252327133&uk=1598198490"
+        },
+        {
+            "rank": "189",
+            "name": "魔女宅急便 ",
+            "score": "8.4",
+            "quote": "宫崎骏的电影总让人感觉世界是美好的，阳光明媚的。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=384852222&uk=908763438"
+        },
+        {
+            "rank": "190",
+            "name": "再次出发之纽约遇见你 ",
+            "score": "8.5",
+            "quote": "爱我就给我看你的播放列表。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2652780522&uk=1929670292"
+        },
+        {
+            "rank": "191",
+            "name": "被解救的姜戈 ",
+            "score": "8.5",
+            "quote": "热血沸腾，那个低俗、性感的无耻混蛋又来了。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=708549837&uk=310496391"
+        },
+        {
+            "rank": "192",
+            "name": "绿里奇迹 ",
+            "score": "8.7",
+            "quote": "天使暂时离开。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3857391820&uk=939778384"
+        },
+        {
+            "rank": "193",
+            "name": "东京物语 ",
+            "score": "9.2",
+            "quote": "东京那么大，如果有一天走失了，恐怕一辈子不能再相见。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4250019360&uk=3993130536"
+        },
+        {
+            "rank": "194",
+            "name": "勇闯夺命岛 ",
+            "score": "8.5",
+            "quote": "类型片的极致。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=644183079&uk=1330472352"
+        },
+        {
+            "rank": "195",
+            "name": "迁徙的鸟 ",
+            "score": "9.1",
+            "quote": "最美的飞翔。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1511104664&uk=1084372931"
+        },
+        {
+            "rank": "196",
+            "name": "末路狂花 ",
+            "score": "8.7",
+            "quote": "没有了退路，只好飞向自由。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=475975423&uk=791075469"
+        },
+        {
+            "rank": "197",
+            "name": "荒野生存 ",
+            "score": "8.6",
+            "quote": "出门必备：本草纲目。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2192413762&uk=862206537"
+        },
+        {
+            "rank": "198",
+            "name": "青蛇 ",
+            "score": "8.4",
+            "quote": "人生如此，浮生如斯。谁人言，花彼岸，此生情长意短。谁都是不懂爱的罢了。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=398895275&uk=104191070"
+        },
+        {
+            "rank": "199",
+            "name": "卡萨布兰卡 ",
+            "score": "8.6",
+            "quote": "与同名歌曲无关。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=281794490&uk=306474339"
+        },
+        {
+            "rank": "200",
+            "name": "哪吒闹海 ",
+            "score": "8.8",
+            "quote": "想你时你在闹海。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3335452444&uk=1208518303"
+        },
+        {
+            "rank": "201",
+            "name": "终结者2：审判日 ",
+            "score": "8.5",
+            "quote": "少见的超越首部的续集，动作片中的经典。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4266017598&uk=219081398"
+        },
+        {
+            "rank": "202",
+            "name": "忠犬八公物语 ",
+            "score": "9.0",
+            "quote": "养狗三日，便会对你终其一生。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3873820405&uk=1010046989"
+        },
+        {
+            "rank": "203",
+            "name": "这个男人来自地球 ",
+            "score": "8.5",
+            "quote": "科幻真正的魅力不是视觉效果能取代的。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=170863492&uk=122944454"
+        },
+        {
+            "rank": "204",
+            "name": "变脸 ",
+            "score": "8.4",
+            "quote": "当发哥的风衣、墨镜出现在了凯奇身上⋯⋯",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2714528440&uk=3697255184"
+        },
+        {
+            "rank": "205",
+            "name": "燕尾蝶 ",
+            "score": "8.6",
+            "quote": "现实与童话交相辉映的旅程。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3647464793&uk=1208518303"
+        },
+        {
+            "rank": "206",
+            "name": "源代码 ",
+            "score": "8.3",
+            "quote": "邓肯·琼斯继《月球》之后再度奉献出一部精彩绝伦的科幻佳作。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3987876144&uk=1527582189"
+        },
+        {
+            "rank": "207",
+            "name": "新龙门客栈 ",
+            "score": "8.4",
+            "quote": "嬉笑怒骂，调风动月。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=165540377&uk=4103207533"
+        },
+        {
+            "rank": "208",
+            "name": "E.T. 外星人 ",
+            "score": "8.5",
+            "quote": "生病的E.T.皮肤的颜色就像柿子饼。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3436506275&uk=2068952654"
+        },
+        {
+            "rank": "209",
+            "name": "英国病人 ",
+            "score": "8.4",
+            "quote": "In memory, love lives forever...",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1102537561&uk=1026789719"
+        },
+        {
+            "rank": "210",
+            "name": "黄金三镖客 ",
+            "score": "9.1",
+            "quote": "最棒的西部片。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2685973788&uk=1870504545"
+        },
+        {
+            "rank": "211",
+            "name": "黑客帝国3：矩阵革命 ",
+            "score": "8.5",
+            "quote": "不得不说，《黑客帝国》系列是商业片与科幻、哲学完美结合的典范。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=381173511&uk=3512718891"
+        },
+        {
+            "rank": "212",
+            "name": "发条橙 ",
+            "score": "8.4",
+            "quote": "我完全康复了。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3475895441&uk=2373288888"
+        },
+        {
+            "rank": "213",
+            "name": "美国丽人 ",
+            "score": "8.4",
+            "quote": "每个人的内心都是深不可测的大海。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4077237394&uk=3182742368"
+        },
+        {
+            "rank": "214",
+            "name": "城市之光 ",
+            "score": "9.2",
+            "quote": "永远的小人物，伟大的卓别林。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1643416060&uk=539156334"
+        },
+        {
+            "rank": "215",
+            "name": "叫我第一名 ",
+            "score": "8.6",
+            "quote": "乐观比一切都有力量。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=53608728&uk=219081398"
+        },
+        {
+            "rank": "216",
+            "name": "无耻混蛋 ",
+            "score": "8.4",
+            "quote": "昆汀同学越来越变态了，比北野武还杜琪峰。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2182737466&uk=1752463755"
+        },
+        {
+            "rank": "217",
+            "name": "穆赫兰道 ",
+            "score": "8.3",
+            "quote": "大卫·林奇的梦境迷宫。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3264911349&uk=2165886351"
+        },
+        {
+            "rank": "218",
+            "name": "非常嫌疑犯 ",
+            "score": "8.6",
+            "quote": "我不信仰上帝，但我敬畏上帝。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=4216693271&uk=306474339"
+        },
+        {
+            "rank": "219",
+            "name": "初恋这件小事 ",
+            "score": "8.2",
+            "quote": "黑小鸭速效美白记。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1332378198&uk=2686560735"
+        },
+        {
+            "rank": "220",
+            "name": "勇士 ",
+            "score": "8.9",
+            "quote": "热血沸腾，相当完美的娱乐拳击大餐。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=650091567&uk=609021507"
+        },
+        {
+            "rank": "221",
+            "name": "模仿游戏 ",
+            "score": "8.5",
+            "quote": "他给机器起名“克里斯托弗”，因为这是他初恋的名字。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=260329912&uk=541029040"
+        },
+        {
+            "rank": "222",
+            "name": "上帝也疯狂 ",
+            "score": "8.6",
+            "quote": "纯净原始的笑与感动。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2428840843&uk=375676478"
+        },
+        {
+            "rank": "223",
+            "name": "蓝色大门 ",
+            "score": "8.3",
+            "quote": "青春的窃窃私语。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=697755972&uk=1114875925"
+        },
+        {
+            "rank": "224",
+            "name": "爱·回家 ",
+            "score": "9.0",
+            "quote": "献给所有外婆的电影。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=385330371&uk=3730622674"
+        },
+        {
+            "rank": "225",
+            "name": "无敌破坏王 ",
+            "score": "8.6",
+            "quote": "迪士尼和皮克斯拿错剧本的产物。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=373139691&uk=3963843135"
+        },
+        {
+            "rank": "226",
+            "name": "爱在午夜降临前 ",
+            "score": "8.8",
+            "quote": "所谓爱情，就是话唠一路，都不会心生腻烦，彼此嫌弃。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3251515898&uk=1208518303"
+        },
+        {
+            "rank": "227",
+            "name": "血钻 ",
+            "score": "8.5",
+            "quote": "每个美丽事物背后都是滴血的现实。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2605659590&uk=740871509"
+        },
+        {
+            "rank": "228",
+            "name": "大卫·戈尔的一生 ",
+            "score": "8.6",
+            "quote": "捍卫人权只是信仰，一点不妨碍其行为的残忍。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=451785582&uk=1515339266"
+        },
+        {
+            "rank": "229",
+            "name": "国王的演讲 ",
+            "score": "8.3",
+            "quote": "皇上无话儿。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1693376268&uk=306474339"
+        },
+        {
+            "rank": "230",
+            "name": "房间 ",
+            "score": "8.8",
+            "quote": "被偷走的岁月，被伤害的生命，被禁锢的灵魂，终将被希望和善意救赎。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1145292960&uk=205165547"
+        },
+        {
+            "rank": "231",
+            "name": "枪火 ",
+            "score": "8.6",
+            "quote": "一群演技精湛的戏骨，奉献出一个精致的黑帮小品，成就杜琪峰群戏的巅峰之作。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2035672889&uk=2701181026"
+        },
+        {
+            "rank": "232",
+            "name": "疯狂的石头 ",
+            "score": "8.2",
+            "quote": "中国版《两杆大烟枪》。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=765570408&uk=122944454"
+        },
+        {
+            "rank": "233",
+            "name": "曾经 ",
+            "score": "8.3",
+            "quote": "有些幸福无关爱情。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=339672023&uk=1870504545"
+        },
+        {
+            "rank": "234",
+            "name": "麦兜故事 ",
+            "score": "8.5",
+            "quote": "麦兜是一只很哲学的猪。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2449735373&uk=892478532"
+        },
+        {
+            "rank": "235",
+            "name": "暖暖内含光 ",
+            "score": "8.4",
+            "quote": "恋爱是一次神经的冒险。就算失去记忆，也会爱上你。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2015220103&uk=1434767101"
+        },
+        {
+            "rank": "236",
+            "name": "千钧一发 ",
+            "score": "8.7",
+            "quote": "一部能引人思考的科幻励志片。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2844750968&uk=372303053"
+        },
+        {
+            "rank": "237",
+            "name": "头脑特工队 ",
+            "score": "8.7",
+            "quote": "愿我们都不用长大，每一座城堡都能永远存在。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=873967700&uk=4064654060"
+        },
+        {
+            "rank": "238",
+            "name": "遗愿清单 ",
+            "score": "8.5",
+            "quote": "用剩余不多的时间，去燃烧整个生命。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2180227391&uk=2701181026"
+        },
+        {
+            "rank": "239",
+            "name": "荒岛余生 ",
+            "score": "8.5",
+            "quote": "一个人的独角戏。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1546312720&uk=176335829"
+        },
+        {
+            "rank": "240",
+            "name": "蝴蝶 ",
+            "score": "8.6",
+            "quote": "我们长途跋涉寻找的东西，有可能一直就在身边。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1849672524&uk=2200117301"
+        },
+        {
+            "rank": "241",
+            "name": "巴黎淘气帮 ",
+            "score": "8.6",
+            "quote": "四百击的反面。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1896133605&uk=1870504545"
+        },
+        {
+            "rank": "242",
+            "name": "与狼共舞 ",
+            "score": "8.9",
+            "quote": "充满诗意与情怀的史诗作品。 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3177772273&uk=1057283767"
+        },
+        {
+            "rank": "243",
+            "name": "月球 ",
+            "score": "8.5",
+            "quote": "2009媲美《第九区》的又一部科幻神作。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2767786819&uk=639034247"
+        },
+        {
+            "rank": "244",
+            "name": "偷拐抢骗 ",
+            "score": "8.5",
+            "quote": "典型盖·里奇式的英国黑色幽默黑帮片。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=3711198187&uk=3881578671"
+        },
+        {
+            "rank": "245",
+            "name": "我爱你 ",
+            "score": "9.0",
+            "quote": "你要相信，这世上真的有爱存在，不管在什么年纪 ",
+            "download_link": "https://pan.baidu.com/share/link?shareid=554722653&uk=3123498894"
+        },
+        {
+            "rank": "246",
+            "name": "彗星来的那一夜 ",
+            "score": "8.4",
+            "quote": "小成本大魅力。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=744350185&uk=1785947437"
+        },
+        {
+            "rank": "247",
+            "name": "步履不停 ",
+            "score": "8.8",
+            "quote": "日本的家庭电影已经是世界巅峰了，步履不停是巅峰中的佳作。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=2907654436&uk=1579502086"
+        },
+        {
+            "rank": "248",
+            "name": "夜访吸血鬼 ",
+            "score": "8.3",
+            "quote": "弥漫淡淡血腥气的优雅。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1586189580&uk=2602308487"
+        },
+        {
+            "rank": "249",
+            "name": "寿司之神 ",
+            "score": "8.8",
+            "quote": "仪式主义的狂欢，偏执狂的完胜。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=239970418&uk=4051721367"
+        },
+        {
+            "rank": "250",
+            "name": "廊桥遗梦 ",
+            "score": "8.6",
+            "quote": "这样确切的爱，一生只有一次。",
+            "download_link": "https://pan.baidu.com/share/link?shareid=1695297304&uk=2703225223"
+        }
+    ]
+}
