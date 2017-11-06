@@ -54,7 +54,7 @@ def cached_url(url):
     else:
         # 建立 cached 文件夹
         if not os.path.exists(folder):
-            os.makedirs(folder)
+            os.makedir(folder)
         # 发送网络请求，把结果/二进制写入文件
         r = requests.get(url)
         with open(path, 'wb') as f:
