@@ -106,6 +106,32 @@ class DbToMysql():
             print('数据查询存错误')
             return -1
 
+    def find_by_fields(self, table, queryset={}):
+        '''
+        从数据库里查询 符合多个条件的记录 
+        Args:
+            table: 表名字 str
+            queryset : key 字段 value 值 dict
+        return:
+            成功： [dict] 保存的记录
+            失败： -1
+        '''
+
+        try:
+            with self.con.cursor() as cursor:
+                querrys = ""
+                for k, v in queryset.items():
+                    querrys += "{} = '{}' and ".format(k, v)
+                sql = "select * from {} where {} ".format(
+                    table, querrys[:-4])
+                print(sql)
+                cursor.execute(sql)
+                res = cursor.fetchall()
+                return res
+        except:
+            print('数据查询存错误')
+            return -1
+
     def find_by_sort(self, table, field, limit=1000, order='DESC'):
         '''
         从数据库里查询排序过的数据
