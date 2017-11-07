@@ -85,12 +85,13 @@ def cached_url(url):
     folder = 'cached_url'
     filename = url.split('?')[1].split('&')[0].split('=')[1] + '.html'
     path = os.path.join(folder, filename)
-
+    # 如果文件缓存过了，读文件并返回
     if os.path.exists(path):
         with open(path, 'rb') as f:
             s = f.read()
             return s
     else:
+        # 建立文件夹用于保存网页
         if not os.path.exists(folder):
             os.mkdir(folder)
         html = get_html_text(url, HEADERS, format_cookie(COOKIES))
@@ -105,14 +106,14 @@ def cached_url(url):
 
 def main():
     store = DbToMysql(config.EHCO_DB)
-    for i in range(14940, 20001, 20):
+    for i in range(0, 20001, 20):
         html = cached_url(request_url.format(i))
-        time.sleep(3)
+        #time.sleep(3)
         if html != -1:
             res_list = parse_detail(html)
             if res_list != -1:
                 for data in res_list:
-                    store.save_one_data('GodOfHammer', data)
+                    store.save_one_data('GodOfHammer_1', data)
                 print('第{}页保存完毕'.format(i))
     store.close()
 
