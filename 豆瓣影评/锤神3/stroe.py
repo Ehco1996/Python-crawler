@@ -63,6 +63,8 @@ class DbToMysql():
         except:
             print('数据库保存错误')
             return -1
+        finally:
+            self.close()
 
     def find_all(self, table, limit):
         '''
@@ -83,6 +85,8 @@ class DbToMysql():
         except:
             print('数据查询存错误')
             return -1
+        finally:
+            self.close()
 
     def find_by_field(self, table, field, field_value):
         '''
@@ -105,6 +109,8 @@ class DbToMysql():
         except:
             print('数据查询存错误')
             return -1
+        finally:
+            self.close()
 
     def find_by_fields(self, table, queryset={}):
         '''
@@ -124,13 +130,15 @@ class DbToMysql():
                     querrys += "{} = '{}' and ".format(k, v)
                 sql = "select * from {} where {} ".format(
                     table, querrys[:-4])
-                print(sql)
                 cursor.execute(sql)
                 res = cursor.fetchall()
                 return res
         except:
             print('数据查询存错误')
             return -1
+        finally:
+            self.close()
+            
 
     def find_by_sort(self, table, field, limit=1000, order='DESC'):
         '''
@@ -154,3 +162,5 @@ class DbToMysql():
         except:
             print('数据查询存错误')
             return -1
+        finally:
+            self.close()
