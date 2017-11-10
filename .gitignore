@@ -91,3 +91,6 @@ ENV/
 .DS_Store
 .vscode/settings.json
 豆瓣影评/锤神3/.vscode/settings.json
+doubanmovie/.vscode/settings.json
+Beautiful Soup 爬虫/.vscode/settings.json
+*.settings.json
