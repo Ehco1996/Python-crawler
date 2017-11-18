@@ -4,18 +4,25 @@
 
 import pymysql.cursors
 
-import config
-
 
 class DbToMysql():
     '''封装对数据库的操作'''
 
     def __init__(self, configs):
+        '''
+        传入数据库配置参数
+        '''
+        self.configs = configs
+
+    def start_con(self):
+        '''
+        与数据库建立链接
+        '''
         self.con = pymysql.connect(
-            host=configs['host'],
-            user=configs['user'],
-            password=configs['password'],
-            db=configs['db'],
+            host=self.configs['host'],
+            user=self.configs['user'],
+            password=self.configs['password'],
+            db=self.configs['db'],
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor
         )
@@ -35,6 +42,7 @@ class DbToMysql():
             失败： -1
         每条记录都以一个字典的形式传进来
         '''
+        self.start_con()
         key_map = {}
         if len(data) == 0:
             return -1
@@ -52,33 +60,34 @@ class DbToMysql():
         # 生成sql语句
         sql = "insert ignore into {}({}) values({})".format(
             table, fields[:-1], values[:-1])
-
         try:
             with self.con.cursor() as cursor:
                 # 执行语句
                 cursor.execute(sql)
                 self.con.commit()
-                res = cursor.fetchone()
-                return res
-        except:
-            print('数据库保存错误')
-            return -1
-        finally:
-            self.close()
+                cursor.close()
+        except Exception as e:
+            print(e)
+        self.close()
 
-    def find_all(self, table, limit):
+    def find_all(self, table, limit=-1):
         '''
         从数据库里查询所有记录
         Args:
             table: 表名字 str
             limit: 限制数量
+            当limit为-1的时候，从数据库取全部的数据
         return:
             成功： [dict] 保存的记录
             失败： -1
         '''
         try:
+            self.start_con()
             with self.con.cursor() as cursor:
-                sql = "select * from {} limit 0,{}".format(table, limit)
+                if limit == -1:
+                    sql = "select * from {}".format(table)
+                else:
+                    sql = "select * from {} limit 0,{}".format(table, limit)
                 cursor.execute(sql)
                 res = cursor.fetchall()
                 return res
@@ -100,6 +109,7 @@ class DbToMysql():
             失败： -1
         '''
         try:
+            self.start_con()
             with self.con.cursor() as cursor:
                 sql = "select * from {} where {} = '{}'".format(
                     table, field, field_value)
@@ -124,6 +134,7 @@ class DbToMysql():
         '''
 
         try:
+            self.start_con()
             with self.con.cursor() as cursor:
                 querrys = ""
                 for k, v in queryset.items():
@@ -138,7 +149,6 @@ class DbToMysql():
             return -1
         finally:
             self.close()
-            
 
     def find_by_sort(self, table, field, limit=1000, order='DESC'):
         '''
@@ -153,6 +163,7 @@ class DbToMysql():
             失败： -1
         '''
         try:
+            self.start_con()
             with self.con.cursor() as cursor:
                 sql = "select * from {} order by {} {} limit 0,{}".format(
                     table, field, order, limit)
