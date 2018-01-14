@@ -1,14 +1,16 @@
+.idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
+.html/
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
 env/
+env27/
 build/
 develop-eggs/
 dist/
@@ -20,6 +22,7 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -42,7 +45,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*,cover
+*.cover
 .hypothesis/
 
 # Translations
@@ -66,7 +69,7 @@ docs/_build/
 # PyBuilder
 target/
 
-# IPython Notebook
+# Jupyter Notebook
 .ipynb_checkpoints
 
 # pyenv
@@ -75,23 +78,26 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
+# SageMath parsed files
+*.sage.py
+
 # dotenv
 .env
 
 # virtualenv
+.venv
 venv/
 ENV/
 
 # Spyder project settings
 .spyderproject
+.spyproject
 
 # Rope project settings
 .ropeproject
-浏览器模拟爬虫/.DS_Store
-.DS_Store
-.vscode/settings.json
-豆瓣影评/锤神3/.vscode/settings.json
-doubanmovie/.vscode/settings.json
-Beautiful Soup 爬虫/.vscode/settings.json
-*.settings.json
-toapi-91baby/.vscode/settings.json
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
