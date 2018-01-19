@@ -22,7 +22,7 @@ class MySettings(Settings):
         "DB_URL": 'sqlite:///data.sqlite',
     }
     web = {
-        "with_ajax": False,
+        "with_ajax": True,
         "request_config": {},
         "headers": None
     }

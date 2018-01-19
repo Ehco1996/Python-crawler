@@ -48,7 +48,7 @@ def get_book_content(book_id, page):
             print(book['title'] + '第{}章节 \n\n'.format(i))
             print(contents[i] + '\n\n')
             input('本章已经阅读完，任意键阅读下一章节！\n\n')
-
+            
         key = input('本页小说已经全部阅读完毕，要看下一页么？y键确定\n\n')
         if key == 'y':
             page += 1
