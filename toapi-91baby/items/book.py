@@ -20,7 +20,6 @@ class Book(Item):
     author = XPath('//*[@id="wp"]/div[3]/text()[3]')
     page = XPath('//div[@class="pg"]/a[@class="last"]/text()')
     contents = XPath('//td[@class="t_f"]')
-
     def clean_title(self, title):
         return title.split('《')[1].split('》')[0]
 

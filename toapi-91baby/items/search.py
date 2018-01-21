@@ -2,12 +2,25 @@ from toapi import Item, XPath
 
 
 class Search(Item):
-    __base_url__ = 'https://91baby.mama.cn/search.php?searchsubmit=yes'
-    title = XPath('//li[@class="pbw"]/h3/text()')
+    '''
+    从搜索的界面解析出
+    书名 id 链接 简介
+    '''
+    title = XPath('//h3/a/text()')
+    book_id = XPath('//h3/a/@href')
+    url = XPath('//h3/a/@href')
+    content = XPath('//p[2]/text()')
 
-    class Meta:
-        source = XPath('//div[@class="slst mtw"]')
-        route = {'/hotbook?page=:page': '/forum-171-:page.html'}
+    def clean_title(self, title):
+        return ''.join(title)
 
     def clean_book_id(self, book_id):
         return book_id.split('-')[1]
+
+    def clean_url(self, url):
+        return url[:url.find('?')]
+
+    class Meta:
+        source = XPath('//li[@class="pbw"]')
+        # 这里的route留空，防止重复注册路由
+        route = {}
