@@ -18,8 +18,9 @@ class Book(Item):
 
     title = XPath('//*[@id="wp"]/div[3]/text()[3]')
     author = XPath('//*[@id="wp"]/div[3]/text()[3]')
-    page = XPath('//div[@class="pg"]/a[@class="last"]/text()')
+    total_page = XPath('//span[@class="pgt"]/div//a')
     contents = XPath('//td[@class="t_f"]')
+
     def clean_title(self, title):
         return title.split('《')[1].split('》')[0]
 
@@ -36,14 +37,20 @@ class Book(Item):
             text.append(content)
         return text
 
-    def clean_page(self, page):
-        num = (len(page))
-        print(page)
-        if num == 0:
+    def clean_total_page(self, total_page):
+        try:
+            for index, page in enumerate(total_page):
+                num = page.xpath('./text()')[0]
+                if num == '下一页':
+                    i = int(index) - 1
+                    break
+            page = total_page[i].xpath('./text()')[0]
+            if '...' in page:
+                return int(page.replace('... ', ''))
+            return int(page)
+        except:
             return 1
-        else:
-            return int(page[0].replace('...', ''))
 
     class Meta:
         source = None
-        route = {'/book?id=:id?page=:page': '/thread-:id-:page-1.html'}
+        route = {'/book_id=:id?page=:page': '/thread-:id-:page-1.html'}

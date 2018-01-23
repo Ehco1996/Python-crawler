@@ -33,8 +33,8 @@ class Mazhifu(object):
         '''获取cookies'''
 
         # 初始化浏览器对象
-        # sel = webdriver.PhantomJS()
-        sel = webdriver.Chrome()
+        sel = webdriver.PhantomJS()
+        # sel = webdriver.Chrome()
         sel.get('https://codepay.fateqq.com/login.html')
         sel.implicitly_wait(3)
         # 找到用户名字输入框
@@ -81,7 +81,7 @@ def download_csv_by_date(date, cookies, headers):
     '''
     csv_url = 'https://codepay.fateqq.com/order.html?csv=1&type=0&status=NaN&startdate={}&finishdate={}&pay_id='.format(
         date, date)
-    r = requests.get(csv_url, cookies=cookies, headers=headers)
+    r = requests.get(csv_url, cookies=cookies, headers=headers, verify=False)
     try:
         with open('{}.csv'.format(date), 'w') as f:
             f.write(r.content.decode('GB2312'))
@@ -125,7 +125,7 @@ def deal_csv_file(filename):
                 'raw_price': raw_price,  # 申请价格
                 'pay_price': pay_price,  # 支付价格
                 'status': status,  # 支付状态
-                'user_id': user_id,
+                'user_id': user_id,  # 91pay id
             }
             items.append(item)
     return items
@@ -139,17 +139,19 @@ def main():
     # 模拟登录获取cookies:
     pay = Mazhifu(HEADERS, USERNMAE, PASSWD)
     COOKIES = pay.get_cookies()
-
-    # 今日日期
+    # # 今日日期
     today = datetime.today().strftime('%Y-%m-%d')
-    # 下载今日的账单文件
+    # # 下载今日的账单文件
     download_csv_by_date(today, COOKIES, HEADERS)
-
     # 处理csv文件并入库
     items = deal_csv_file(today + '.csv')
+    # 建立数据库链接
     store = LazyMysql(TEST_DB)
     for item in items:
-        store.save_one_data(item, '91pay')
+        # 数据去重
+        res = store.find_by_field('91pay', 'date', item['date'])
+        if len(res) == 0:
+            store.save_one_data(item, '91pay')
 
 
 if __name__ == "__main__":

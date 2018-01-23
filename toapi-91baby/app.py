@@ -6,7 +6,7 @@ from settings import MySettings
 import json
 import requests
 
-api = Api('',settings=MySettings)
+api = Api('', settings=MySettings)
 api.register(HotBook)
 api.register(Book)
 api.register(Search)
@@ -21,8 +21,8 @@ def search_page(keyword):
     data = {
         'searchsel': 'forum',
         'mod': 'forum',
-        'srchtype': keyword,
-        'srchtxt': '古代',
+        'srchtype': 'title',
+        'srchtxt': keyword,
     }
     r = requests.post(
         'http://91baby.mama.cn/search.php?searchsubmit=yes', data)
