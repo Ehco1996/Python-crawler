@@ -7,10 +7,21 @@ from toapi import Item, XPath
 
 def strip(text):
     '''去除字符串里的空白字符'''
-    blank_str = ['\u3000\u3000', '\xa0', '\r', '\n']
+    blank_str = ['\u3000\u3000', '\xa0', '\r']
     for i in blank_str:
         text = text.replace(i, '')
     return text
+
+
+def strip_list(l):
+    '''
+    删除列表中的短字符串
+    '''
+    new_l = []
+    for ele in l:
+        if len(ele) > 5 and '本帖最后由' not in ele:
+            new_l.append(ele)
+    return new_l
 
 
 class Book(Item):
@@ -29,13 +40,18 @@ class Book(Item):
         return author[index:]
 
     def clean_contents(self, contents):
-        text = []
-        for item in contents:
+        chapters = {}
+        for index, item in enumerate(contents):
             content = strip(item.xpath('string(.)'))
-            if len(content) < 128:
-                text.append('全书完结!!! 以下的内容是网友书评！')
-            text.append(content)
-        return text
+            # 去掉开头废话
+            if '当前被收藏数' not in content:
+                chapters[index] = content
+        book_contents = {}
+        for k, v in chapters.items():
+            # 过滤超断行
+            texts = strip_list(v.split('\n'))
+            book_contents[k] = texts
+        return book_contents
 
     def clean_total_page(self, total_page):
         try:

@@ -14,7 +14,7 @@ class MySettings(Settings):
         'cache_class': MemoryCache,
         'cache_config': {},
         'serializer': None,
-        'ttl': None
+        'ttl': 10,
     }
     storage = {
         "PATH": os.getcwd(),
@@ -22,7 +22,7 @@ class MySettings(Settings):
         "DB_URL": 'sqlite:///data.sqlite',
     }
     web = {
-        "with_ajax": True,
+        "with_ajax": False,
         "request_config": {},
         "headers": None
     }

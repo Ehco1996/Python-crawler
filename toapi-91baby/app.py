@@ -1,10 +1,16 @@
+import json
+
 from toapi import Api
+import requests
+
 from items.hotbook import HotBook
 from items.book import Book
 from items.search import Search
 from settings import MySettings
-import json
-import requests
+
+
+
+
 
 api = Api('', settings=MySettings)
 api.register(HotBook)

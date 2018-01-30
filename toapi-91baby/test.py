@@ -5,7 +5,7 @@ import requests
 from prettytable import PrettyTable
 
 list_url = 'http://127.0.0.1:5000/hotbook?page={}'
-book_url = 'http://127.0.0.1:5000/book?id={}?page={}'
+book_url = 'http://127.0.0.1:5000/book_id={}?page={}'
 
 
 def get_json_response(url):
@@ -38,7 +38,7 @@ def get_book_content(book_id, page):
     book = book_json['Book']
     # 打印书籍头
     header = ['书名', '作者', '总页数', '当前页']
-    rows = [[book['title'], book['author'], book['page'], page]]
+    rows = [[book['title'], book['author'], book['total_page'], page]]
     print_table(header, rows)
     # 打印书籍内容
     contents = book['contents']
