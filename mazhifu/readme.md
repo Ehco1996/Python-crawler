@@ -24,21 +24,22 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure for 91pay
+-- Table structure for cmf_pay_orders
 -- ----------------------------
-DROP TABLE IF EXISTS `91pay`;
-CREATE TABLE `91pay` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `user_id` int(11) DEFAULT NULL,
-  `username` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `way` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `status` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `trade_no` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `raw_price` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `pay_price` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `date` datetime DEFAULT NULL,
+DROP TABLE IF EXISTS `cmf_pay_orders`;
+CREATE TABLE `cmf_pay_orders` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ID',
+  `user_id` int(11) DEFAULT NULL COMMENT '用户ID',
+  `username` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL COMMENT '用户名',
+  `way` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL COMMENT '支付方式',
+  `status` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL COMMENT '订单状态',
+  `trade_no` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL COMMENT '订单号',
+  `raw_price` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL COMMENT '申请价格',
+  `pay_price` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL COMMENT '支付价格',
+  `date` datetime DEFAULT NULL COMMENT '订单日期',
+  `cash` int(2) NOT NULL DEFAULT '0' COMMENT '提现状态',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=464 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=115 DEFAULT CHARSET=utf8;
 
 SET FOREIGN_KEY_CHECKS = 1;
 ```

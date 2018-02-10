@@ -1,10 +1,16 @@
+import os
+import time
+from datetime import datetime
+
+import requests
 from lazyspider.lazystore import LazyMysql
 from selenium import webdriver
-from datetime import datetime
-import time
-import requests
 
 from config import TEST_DB, USERNMAE, PASSWD
+# 在当前目录运创建data目录
+CSV_DIR = os.path.dirname(__file__) + '/csvdata/'
+if not os.path.isdir(CSV_DIR):
+    os.mkdir(CSV_DIR)
 
 
 class Mazhifu(object):
@@ -82,8 +88,9 @@ def download_csv_by_date(date, cookies, headers):
     csv_url = 'https://codepay.fateqq.com/order.html?csv=1&type=0&status=NaN&startdate={}&finishdate={}&pay_id='.format(
         date, date)
     r = requests.get(csv_url, cookies=cookies, headers=headers, verify=False)
+
     try:
-        with open('{}.csv'.format(date), 'w') as f:
+        with open(CSV_DIR+'/{}.csv'.format(date), 'w') as f:
             f.write(r.content.decode('GB2312'))
         print('日期：{} 账单下载成功'.format(date))
     except:
@@ -112,11 +119,14 @@ def deal_csv_file(filename):
             except:
                 username = '用户名不合法'
                 user_id = '-1'
-                print(data)
             trade_no = data[4]
             raw_price = data[5]
             pay_price = data[6]
             status = data[7]
+            if status == '支付失败':
+                cash = -1
+            else:
+                cash = 0
             item = {
                 'date': date,  # 日期
                 'way': way,   # 支付方式
@@ -126,6 +136,7 @@ def deal_csv_file(filename):
                 'pay_price': pay_price,  # 支付价格
                 'status': status,  # 支付状态
                 'user_id': user_id,  # 91pay id
+                'cash': cash
             }
             items.append(item)
     return items
@@ -139,19 +150,20 @@ def main():
     # 模拟登录获取cookies:
     pay = Mazhifu(HEADERS, USERNMAE, PASSWD)
     COOKIES = pay.get_cookies()
-    # # 今日日期
+    # 今日日期
     today = datetime.today().strftime('%Y-%m-%d')
-    # # 下载今日的账单文件
+    # 下载今日的账单文件
     download_csv_by_date(today, COOKIES, HEADERS)
     # 处理csv文件并入库
-    items = deal_csv_file(today + '.csv')
+    items = deal_csv_file(CSV_DIR+today + '.csv')
     # 建立数据库链接
     store = LazyMysql(TEST_DB)
     for item in items:
-        # 数据去重
-        res = store.find_by_field('91pay', 'date', item['date'])
+        # 数据根据日期和方式去重
+        res = store.find_by_fields(
+            'cmf_pay_orders', {'date': item['date'], 'way': item['way']})
         if len(res) == 0:
-            store.save_one_data(item, '91pay')
+            store.save_one_data(item, 'cmf_pay_orders')
 
 
 if __name__ == "__main__":
