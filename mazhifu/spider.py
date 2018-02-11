@@ -1,6 +1,6 @@
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import requests
 from lazyspider.lazystore import LazyMysql
@@ -8,7 +8,7 @@ from selenium import webdriver
 
 from config import TEST_DB, USERNMAE, PASSWD
 # 在当前目录运创建data目录
-CSV_DIR = os.path.dirname(__file__) + '/csvdata/'
+CSV_DIR = os.path.abspath(os.curdir) + '/csvdata/'
 if not os.path.isdir(CSV_DIR):
     os.mkdir(CSV_DIR)
 
@@ -150,12 +150,12 @@ def main():
     # 模拟登录获取cookies:
     pay = Mazhifu(HEADERS, USERNMAE, PASSWD)
     COOKIES = pay.get_cookies()
-    # 今日日期
-    today = datetime.today().strftime('%Y-%m-%d')
+    # 昨天日期
+    yesterday = (datetime.today()-timedelta(days=1)) .strftime('%Y-%m-%d')
     # 下载今日的账单文件
-    download_csv_by_date(today, COOKIES, HEADERS)
+    download_csv_by_date(yesterday, COOKIES, HEADERS)
     # 处理csv文件并入库
-    items = deal_csv_file(CSV_DIR+today + '.csv')
+    items = deal_csv_file(CSV_DIR+yesterday + '.csv')
     # 建立数据库链接
     store = LazyMysql(TEST_DB)
     for item in items:
