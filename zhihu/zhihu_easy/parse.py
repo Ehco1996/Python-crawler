@@ -1,17 +1,19 @@
 import json
-import os
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+from datetime import datetime
 
 
-def parse_activites(file_path):
+def parse_activities(file_path):
     '''
     解析用户动态数据
     rtype:
         list
     '''
     with open(file_path) as f:
-        data = json.load(f).get('data')
+        try:
+            data = json.load(f).get('data')
+        except:
+            print('{}文件载入失败'.format(file_path))
+            return []
         res = []
         for action in data:
             verb = action['verb']
@@ -23,6 +25,10 @@ def parse_activites(file_path):
                 answer_id = action['target']['id']
                 answer_api_url = action['target']['url']
                 answer_content = action['target']['excerpt']
+                answer_voteup_count = action['target']['voteup_count']
+                create_time = datetime.fromtimestamp(
+                    action['target']['created_time'])
+
             elif verb == 'QUESTION_FOLLOW':  # 关注问题的行为
                 question_id = action['target']['id']
                 question_api_url = action['target']['url']
@@ -31,6 +37,10 @@ def parse_activites(file_path):
                 answer_id = ''
                 answer_api_url = ''
                 answer_content = ''
+                answer_voteup_count = 0
+                create_time = datetime.fromtimestamp(
+                    action['target']['created'])
+
             else:
                 continue
 
@@ -40,13 +50,8 @@ def parse_activites(file_path):
                 'question_api_url': question_api_url,
                 'answer_id': answer_id,
                 'answer_api_url': answer_api_url,
-                'answer_content': answer_content, })
+                'answer_content': answer_content,
+                'verb': verb,
+                'answer_voteup_count': answer_voteup_count,
+                'create_time': create_time, })
         return res
-
-
-for file in os.listdir(BASE_DIR+'/data/'):
-    file_abs_path = BASE_DIR+'/data/'+file
-    res = parse_activites(file_abs_path)
-    for data in res:
-        for k, v in data.items():
-            print(k, v)
