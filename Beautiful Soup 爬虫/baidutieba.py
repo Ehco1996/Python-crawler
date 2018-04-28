@@ -17,7 +17,7 @@ def get_html(url):
         r = requests.get(url, timeout=30)
         r.raise_for_status()
         # 这里我们知道百度贴吧的编码是utf-8，所以手动设置的。爬去其他的页面时建议使用：
-        # r.endcodding = r.apparent_endconding
+        # r.encoding = r.apparent_encoding
         r.encoding = 'utf-8'
         return r.text
     except:
