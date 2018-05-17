@@ -8,7 +8,6 @@ IDE：Vscode    Python版本: 3.6
 每天的学习记录都会 同步更新到：
 * 微信公众号： findyourownway
 * 知乎专栏：https://zhuanlan.zhihu.com/Ehco-python
-* blog ： www.ehcoblog.ml
 
 详细学习路径：
 ### 一：Beautiful Soup 爬虫
