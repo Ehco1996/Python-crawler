@@ -87,13 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
-浏览器模拟爬虫/.DS_Store
+
+# mac
 .DS_Store
-.vscode/settings.json
-豆瓣影评/锤神3/.vscode/settings.json
-doubanmovie/.vscode/settings.json
-Beautiful Soup 爬虫/.vscode/settings.json
-*.settings.json
-toapi-91baby/.vscode/settings.json
-mazhifu/.vscode/settings.json
-*.json
+
+# vs code
+settings.json
