@@ -47,3 +47,10 @@ IDE：Vscode    Python版本: 3.6
 * 爬虫应用： 获取支付宝账单信息 https://zhuanlan.zhihu.com/p/28537306
 * 爬虫应用：IT之家热门段子（评论）爬取 https://zhuanlan.zhihu.com/p/28806210
 * 爬虫应用：一号店 商品信息查询程序 https://zhuanlan.zhihu.com/p/28982497
+* 爬虫应用：搜狗输入法词库抓取 https://zhuanlan.zhihu.com/p/31186373
+* 爬虫应用：复古网盘游戏抓取 https://zhuanlan.zhihu.com/p/32420131
+* 爬虫应用：自动填写问卷星  https://zhuanlan.zhihu.com/p/36224375
+* 爬虫应用：腾讯漫画下载~  https://zhuanlan.zhihu.com/p/39578774
+
+
+
