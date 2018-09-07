@@ -5,8 +5,6 @@
 同时也是为了分享一下如何能更高效率的学习写爬虫。    
 IDE：Vscode    Python版本: 3.6   
 
-每天的学习记录都会 同步更新到：
-* 微信公众号： findyourownway
 * 知乎专栏：https://zhuanlan.zhihu.com/Ehco-python
 
 详细学习路径：
