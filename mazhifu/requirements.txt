@@ -1,5 +1,5 @@
 lazyspider==0.0.2
 lxml==4.1.1
 PyMySQL==0.8.0
-requests==2.18.4
+requests==2.31.0
 selenium==3.8.0
